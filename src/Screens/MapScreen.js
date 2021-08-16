@@ -29,6 +29,8 @@ export default function MapScreen() {
          .then(response => response.json())
          .then(responseJson => {
             setDataSource(responseJson.result);
+            rnr;
+
             // console.log('type = ', responseJson.result);
          })
          .catch(error => {
