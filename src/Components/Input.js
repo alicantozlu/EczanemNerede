@@ -20,7 +20,8 @@ export default class Input extends Component {
 
 const styles = StyleSheet.create({
    TI_Style: {
-      flex: 1,
+      width: '100%',
+      height: 40,
       borderBottomColor: 'gray',
       borderBottomWidth: 2,
       fontSize: 15,

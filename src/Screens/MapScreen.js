@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {StyleSheet, Text, View} from 'react-native';
 import MapView, {PROVIDER_GOOGLE, Marker} from 'react-native-maps';
+import axios from 'axios';
 
 export default function MapScreen() {
    const [dataSource, setDataSource] = useState([]);
@@ -10,32 +11,52 @@ export default function MapScreen() {
       latitudeDelta: 28.487,
       longitudeDelta: 20.5876,
    });
-
-   useEffect(() => {
-      fetch(
-         'https://api.collectapi.com/health/dutyPharmacy?ilce=%C3%87ankaya&il=Ankara',
-         {
-            method: 'GET',
-            hostname: 'api.collectapi.com',
-            port: null,
-            path: '/health/dutyPharmacy?ilce=%C3%87ankaya&il=Ankara',
-            headers: {
-               authorization:
-                  'apikey 5LTegKaMLp39FKI8o4GLH9:3XJF8lzEdrDCFrabxLzYbz',
-               'content-type': 'application/json',
-            },
+   const getPharmacies = async () => {
+      const header = {
+         headers: {
+            authorization:
+               'apikey 5LTegKaMLp39FKI8o4GLH9:3XJF8lzEdrDCFrabxLzYbz',
+            'content-type': 'application/json',
          },
-      )
-         .then(response => response.json())
-         .then(responseJson => {
-            setDataSource(responseJson.result);
-            rnr;
+      };
 
-            // console.log('type = ', responseJson.result);
-         })
-         .catch(error => {
-            console.log(error);
+      axios
+         .get(
+            'https://api.collectapi.com/health/dutyPharmacy?ilce=%C3%87ankaya&il=Ankara',
+            header,
+         )
+         .then(res => {
+            console.log({res});
+            const data = res.data.result;
+            setDataSource(data); // çalıştır knk
          });
+   };
+   useEffect(() => {
+      // fetch(
+      //    'https://api.collectapi.com/health/dutyPharmacy?ilce=%C3%87ankaya&il=Ankara',
+      //    {
+      //       method: 'GET',
+      //       hostname: 'api.collectapi.com',
+      //       port: null,
+      //       path: '/health/dutyPharmacy?ilce=%C3%87ankaya&il=Ankara',
+      //       headers: {
+      //          authorization:
+      //             'apikey 5LTegKaMLp39FKI8o4GLH9:3XJF8lzEdrDCFrabxLzYbz',
+      //          'content-type': 'application/json',
+      //       },
+      //    },
+      // )
+      //    .then(response => response.json())
+      //    .then(responseJson => {
+      //       setDataSource(responseJson.result);
+      //       rnr;
+
+      //       // console.log('type = ', responseJson.result);
+      //    })
+      //    .catch(error => {
+      //       console.log(error);
+      //    });
+      getPharmacies();
    }, []);
    return (
       <View style={styles.container}>

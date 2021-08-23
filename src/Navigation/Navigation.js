@@ -4,10 +4,10 @@ import {createStackNavigator} from '@react-navigation/stack';
 import MapScreen from '../Screens/MapScreen';
 import Registration from '../Screens/Registration';
 import Login from '../Screens/Login';
-import HomePage from '../Screens/HomePage';
 import RegPharmacy from '../Screens/RegPharmacy';
 import ForgotPassword from '../Screens/ForgotPassword';
 import ChatScreen from '../Screens/ChatScreen';
+import HomePage from '../Screens/HomePage';
 
 const Stack = createStackNavigator();
 
