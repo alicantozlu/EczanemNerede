@@ -28,6 +28,7 @@ export default function Login({navigation}) {
             </View>
 
             <View style={styles.V_Entry}>
+
                <Input
                   placeholder="T.C. Kimlik No"
                   placeholderTextColor="gray"
@@ -44,6 +45,7 @@ export default function Login({navigation}) {
                />
 
                <View style={styles.V_P}>
+
                   <Pressable
                      onPress={() => {
                         navigation.navigate('Registration');
@@ -56,10 +58,13 @@ export default function Login({navigation}) {
                      }}>
                      <Text style={styles.T_P}>Şifremi Unuttum</Text>
                   </Pressable>
+
                </View>
+
                <View style={styles.V_B_Login}>
                   <Button_LogReg text="Sisteme Giriş Yap" />
                </View>
+               
             </View>
 
             <View style={styles.V_Bottom}></View>

@@ -21,7 +21,7 @@ export default class Input extends Component {
 const styles = StyleSheet.create({
    TI_Style: {
       width: '100%',
-      height: 40,
+      height: 38,
       borderBottomColor: 'gray',
       borderBottomWidth: 2,
       fontSize: 15,

@@ -26,9 +26,9 @@ export default function MapScreen() {
             header,
          )
          .then(res => {
-            console.log({res});
+            //console.log({res});
             const data = res.data.result;
-            setDataSource(data); // çalıştır knk
+            setDataSource(data);
          });
    };
    useEffect(() => {
