@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {StyleSheet, Text, View} from 'react-native';
 import MapView, {PROVIDER_GOOGLE, Marker} from 'react-native-maps';
+import axios from 'axios';
 
 export default function RegPharmacy() {
   const [dataSource, setDataSource] = useState([]);
@@ -10,19 +11,30 @@ export default function RegPharmacy() {
     latitudeDelta: 28.487,
     longitudeDelta: 20.5876,
   });
-
+  const getRegisteredPharmacies = async () => {
+    axios
+       .get(
+          'https://api.jsonbin.io/b/606b39548be464182c592503/latest',
+       )
+       .then(res => {
+          //console.log({res});
+          const data = res.data.result;
+          setDataSource(data);
+       });
+ };
   useEffect(() => {
-    fetch('https://api.jsonbin.io/b/606b39548be464182c592503/latest', {
+/*     fetch('https://api.jsonbin.io/b/606b39548be464182c592503/latest', {
       method: 'GET',
     })
       .then(response => response.json())
       .then(responseJson => {
         setDataSource(responseJson.result);
-        // console.log('type = ', responseJson.result);
+        console.log('type = ', responseJson.result);
       })
       .catch(error => {
         console.log(error);
-      });
+      }); */
+      getRegisteredPharmacies();
   }, []);
 
   return (

@@ -7,15 +7,28 @@ import Login from '../Screens/Login';
 import RegPharmacy from '../Screens/RegPharmacy';
 import ForgotPassword from '../Screens/ForgotPassword';
 import ChatScreen from '../Screens/ChatScreen';
-import HomePage from '../Screens/HomePage';
+import HomePage from '../Screens/Nav';
+import Nav from '../Screens/Nav';
+import NotRegHomePage from '../Screens/NotRegHomePage';
+import NotRegMapPage from '../Screens/NotRegMapScreen';
 
 const Stack = createStackNavigator();
 
 function Navigation() {
    return (
       <NavigationContainer>
-         <Stack.Navigator initialRouteName="Home">
-            <Stack.Screen name="Home" component={HomePage} />
+         <Stack.Navigator initialRouteName="Nav">
+            <Stack.Screen name="Nav" component={Nav} />
+            <Stack.Screen
+               name="NotRegHomePage"
+               component={NotRegHomePage}
+               options={{headerShown: false}}
+            />
+            <Stack.Screen
+               name="NotRegMapScreen"
+               component={NotRegMapPage}
+               options={{headerShown: false}}
+            />
             <Stack.Screen
                name="Maps"
                component={MapScreen}
