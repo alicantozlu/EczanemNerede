@@ -15,7 +15,7 @@ const NotRegHomePage = ({navigation}) => {
          <TouchableOpacity
             style={styles.TO_Styles}
             onPress={() => {
-               navigation.navigate('Registration');
+               navigation.navigate('NotRegMapScreen');
             }}>
             <Text style={styles.TO_textStyles}>Yakındaki Eczaneler</Text>
          </TouchableOpacity>
