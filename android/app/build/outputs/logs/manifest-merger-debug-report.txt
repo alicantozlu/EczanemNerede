@@ -9,6 +9,7 @@ MERGED from [com.facebook.flipper:flipper:0.75.1] /home/can/.gradle/caches/trans
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.75.1] /home/can/.gradle/caches/transforms-2/files-2.1/d8279ebfbcca51b68586de1b9bc17210/jetified-flipper-network-plugin-0.75.1/AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.75.1] /home/can/.gradle/caches/transforms-2/files-2.1/13e0ca18817a9e59a8c4a94704ec8c3c/jetified-flipper-fresco-plugin-0.75.1/AndroidManifest.xml:8:1-15:12
 MERGED from [:react-native-maps] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-12:12
+MERGED from [:react-native-community_geolocation] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-community/geolocation/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-community_masked-view] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-gesture-handler] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-safe-area-context] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
@@ -16,7 +17,7 @@ MERGED from [:react-native-screens] /media/can/At/RN-Projects/Eczanem_Nerede/nod
 MERGED from [com.facebook.react:react-native:0.64.0] /home/can/.gradle/caches/transforms-2/files-2.1/a56511b037fb04f244c71df782e66ef7/jetified-react-native-0.64.0/AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/5c64f35c4f864d4cd139ccbbff91ceb9/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [org.webkit:android-jsc:r245459] /home/can/.gradle/caches/transforms-2/files-2.1/65337ca8c0783fc27be60d476a5f6b75/jetified-android-jsc-r245459/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-reanimated] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/react-native-reanimated/android/build/.transforms/1fa1472c111878efcd70a415ffa4bdb9/jetified-react-native-reanimated-64/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-reanimated] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/react-native-reanimated/android/build/.transforms/dcf487eb1c0fc5ac0063f378fc8d65cf/jetified-react-native-reanimated-64-jsc/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.fresco:flipper:2.2.0] /home/can/.gradle/caches/transforms-2/files-2.1/84c6a932a42f35f9b796c5d67e6eb742/jetified-flipper-2.2.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:stetho:2.2.0] /home/can/.gradle/caches/transforms-2/files-2.1/5f2c193a45b1b439ec8f5a8edcb37f33/jetified-stetho-2.2.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:fresco:2.2.0] /home/can/.gradle/caches/transforms-2/files-2.1/336cee0c87f467fe6bfb36840b0630b2/jetified-fresco-2.2.0/AndroidManifest.xml:2:1-9:12
@@ -202,6 +203,8 @@ MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.75.1] /home/can/.gradl
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.75.1] /home/can/.gradle/caches/transforms-2/files-2.1/13e0ca18817a9e59a8c4a94704ec8c3c/jetified-flipper-fresco-plugin-0.75.1/AndroidManifest.xml:11:5-13:41
 MERGED from [:react-native-maps] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-maps] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_geolocation] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-community/geolocation/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_geolocation] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-community/geolocation/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-community_masked-view] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-community_masked-view] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-gesture-handler] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
@@ -216,8 +219,8 @@ MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/can/.gr
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/5c64f35c4f864d4cd139ccbbff91ceb9/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [org.webkit:android-jsc:r245459] /home/can/.gradle/caches/transforms-2/files-2.1/65337ca8c0783fc27be60d476a5f6b75/jetified-android-jsc-r245459/AndroidManifest.xml:7:5-9:41
 MERGED from [org.webkit:android-jsc:r245459] /home/can/.gradle/caches/transforms-2/files-2.1/65337ca8c0783fc27be60d476a5f6b75/jetified-android-jsc-r245459/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-reanimated] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/react-native-reanimated/android/build/.transforms/1fa1472c111878efcd70a415ffa4bdb9/jetified-react-native-reanimated-64/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-reanimated] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/react-native-reanimated/android/build/.transforms/1fa1472c111878efcd70a415ffa4bdb9/jetified-react-native-reanimated-64/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/react-native-reanimated/android/build/.transforms/dcf487eb1c0fc5ac0063f378fc8d65cf/jetified-react-native-reanimated-64-jsc/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/react-native-reanimated/android/build/.transforms/dcf487eb1c0fc5ac0063f378fc8d65cf/jetified-react-native-reanimated-64-jsc/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.fresco:flipper:2.2.0] /home/can/.gradle/caches/transforms-2/files-2.1/84c6a932a42f35f9b796c5d67e6eb742/jetified-flipper-2.2.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:flipper:2.2.0] /home/can/.gradle/caches/transforms-2/files-2.1/84c6a932a42f35f9b796c5d67e6eb742/jetified-flipper-2.2.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:stetho:2.2.0] /home/can/.gradle/caches/transforms-2/files-2.1/5f2c193a45b1b439ec8f5a8edcb37f33/jetified-stetho-2.2.0/AndroidManifest.xml:5:5-7:41
