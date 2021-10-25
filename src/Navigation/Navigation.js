@@ -5,12 +5,11 @@ import MapScreen from '../Screens/MapScreen';
 import Registration from '../Screens/Registration';
 import Login from '../Screens/Login';
 import RegPharmacy from '../Screens/RegPharmacy';
-import ForgotPassword from '../Screens/ForgotPassword';
 import ChatScreen from '../Screens/ChatScreen';
 import HomePage from '../Screens/Nav';
 import Nav from '../Screens/Nav';
-import NotRegHomePage from '../Screens/NotRegHomePage';
-import NotRegMapPage from '../Screens/NotRegMapScreen';
+import NotRegHomePage from '../Screens/Not_Registered_Pages/NotRegHomePage';
+import NotRegMapPage from '../Screens/Not_Registered_Pages/NotRegMapScreen';
 
 const Stack = createStackNavigator();
 
@@ -47,11 +46,6 @@ function Navigation() {
             <Stack.Screen
                name="RegPharmacy"
                component={RegPharmacy}
-               options={{headerShown: false}}
-            />
-            <Stack.Screen
-               name="ForgotPas"
-               component={ForgotPassword}
                options={{headerShown: false}}
             />
             <Stack.Screen

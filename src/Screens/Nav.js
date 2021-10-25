@@ -10,7 +10,6 @@ export default function Nav({navigation}) {
    return (
       <View>
          <Text>{city}</Text>
-
          <Pressable
             onPress={() => {
                navigation.navigate('NotRegHomePage');
@@ -46,13 +45,6 @@ export default function Nav({navigation}) {
                navigation.navigate('RegPharmacy');
             }}>
             <Text>Kayıtlı Eczaneler</Text>
-         </Pressable>
-
-         <Pressable
-            onPress={() => {
-               navigation.navigate('ForgotPas');
-            }}>
-            <Text>Şifremi Unuttum</Text>
          </Pressable>
 
          <Pressable
