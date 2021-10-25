@@ -8,8 +8,8 @@ import {
    KeyboardAvoidingView,
    SafeAreaView,
 } from 'react-native';
-import Button_LogReg from '../Components/Button_LogReg';
-import Input from '../Components/Input';
+import Button_LogReg from '../../Components/Button_LogReg';
+import Input from '../../Components/Input';
 
 export default function Registration({navigation}) {
    return (
@@ -19,7 +19,7 @@ export default function Registration({navigation}) {
                <Image
                   style={styles.I_Logo}
                   resizeMode="contain"
-                  source={require('../Images/LES.png')}
+                  source={require('../../Images/LES.png')}
                />
             </View>
             {/* -------------------------------------------------------------------------- */}

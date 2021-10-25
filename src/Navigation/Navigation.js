@@ -2,7 +2,7 @@ import * as React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import MapScreen from '../Screens/MapScreen';
-import Registration from '../Screens/Registration';
+import Registration from '../Screens/Not_Registered_Pages/Registration';
 import Login from '../Screens/Login';
 import RegPharmacy from '../Screens/RegPharmacy';
 import ChatScreen from '../Screens/ChatScreen';
