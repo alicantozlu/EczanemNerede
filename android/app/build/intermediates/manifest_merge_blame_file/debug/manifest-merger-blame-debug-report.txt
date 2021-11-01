@@ -38,7 +38,7 @@
 23        android:allowBackup="false"
 23-->/media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:11:7-34
 24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-24-->[androidx.core:core:1.1.0] /home/can/.gradle/caches/transforms-2/files-2.1/d67cd79abd1ca209502f51c69d23182b/core-1.1.0/AndroidManifest.xml:24:18-86
+24-->[androidx.core:core:1.2.0] /home/can/.gradle/caches/transforms-2/files-2.1/1a3234669c33f9f4072a7bfc84af0390/core-1.2.0/AndroidManifest.xml:24:18-86
 25        android:debuggable="true"
 26        android:icon="@mipmap/ic_launcher"
 26-->/media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:9:7-41
@@ -90,21 +90,94 @@
 49-->/media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:30:23-70
 50            </intent-filter>
 51        </activity>
-52        <activity
-52-->[com.google.android.gms:play-services-base:17.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/2631375de80937c90cd3a1032ab35871/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
-53            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-53-->[com.google.android.gms:play-services-base:17.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/2631375de80937c90cd3a1032ab35871/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
-54            android:exported="false"
-54-->[com.google.android.gms:play-services-base:17.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/2631375de80937c90cd3a1032ab35871/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
-55            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-55-->[com.google.android.gms:play-services-base:17.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/2631375de80937c90cd3a1032ab35871/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+52
+53        <meta-data
+53-->[:react-native-firebase_app] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-14:36
+54            android:name="app_data_collection_default_enabled"
+54-->[:react-native-firebase_app] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-63
+55            android:value="true" />
+55-->[:react-native-firebase_app] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-33
 56
-57        <meta-data
-57-->[com.google.android.gms:play-services-basement:17.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/dcffa74d8d015470a7eae32b9eb648c7/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
-58            android:name="com.google.android.gms.version"
-58-->[com.google.android.gms:play-services-basement:17.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/dcffa74d8d015470a7eae32b9eb648c7/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
-59            android:value="@integer/google_play_services_version" />
-59-->[com.google.android.gms:play-services-basement:17.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/dcffa74d8d015470a7eae32b9eb648c7/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
-60    </application>
-61
-62</manifest>
+57        <service
+57-->[:react-native-firebase_app] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-20:19
+58            android:name="com.google.firebase.components.ComponentDiscoveryService"
+58-->[:react-native-firebase_app] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:18-89
+59            android:directBootAware="true"
+59-->[com.google.firebase:firebase-common:20.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/f8ae34a8c3b0d31be812a2c2336520fd/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+60            android:exported="false" >
+60-->[com.google.firebase:firebase-common:20.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/f8ae34a8c3b0d31be812a2c2336520fd/jetified-firebase-common-20.0.0/AndroidManifest.xml:36:13-37
+61            <meta-data
+61-->[:react-native-firebase_app] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:85
+62                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+62-->[:react-native-firebase_app] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-120
+63                android:value="com.google.firebase.components.ComponentRegistrar" />
+63-->[:react-native-firebase_app] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-82
+64        </service>
+65
+66        <provider
+66-->[:react-native-firebase_app] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:9-26:38
+67            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+67-->[:react-native-firebase_app] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-88
+68            android:authorities="com.eczanem_nerede.reactnativefirebaseappinitprovider"
+68-->[:react-native-firebase_app] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-86
+69            android:exported="false"
+69-->[:react-native-firebase_app] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:13-37
+70            android:initOrder="99" />
+70-->[:react-native-firebase_app] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-35
+71
+72        <activity
+72-->[com.google.android.gms:play-services-auth:19.2.0] /home/can/.gradle/caches/transforms-2/files-2.1/0cc0ef843c172e41779de44cec16bda5/jetified-play-services-auth-19.2.0/AndroidManifest.xml:23:9-27:75
+73            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+73-->[com.google.android.gms:play-services-auth:19.2.0] /home/can/.gradle/caches/transforms-2/files-2.1/0cc0ef843c172e41779de44cec16bda5/jetified-play-services-auth-19.2.0/AndroidManifest.xml:24:13-93
+74            android:excludeFromRecents="true"
+74-->[com.google.android.gms:play-services-auth:19.2.0] /home/can/.gradle/caches/transforms-2/files-2.1/0cc0ef843c172e41779de44cec16bda5/jetified-play-services-auth-19.2.0/AndroidManifest.xml:25:13-46
+75            android:exported="false"
+75-->[com.google.android.gms:play-services-auth:19.2.0] /home/can/.gradle/caches/transforms-2/files-2.1/0cc0ef843c172e41779de44cec16bda5/jetified-play-services-auth-19.2.0/AndroidManifest.xml:26:13-37
+76            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+76-->[com.google.android.gms:play-services-auth:19.2.0] /home/can/.gradle/caches/transforms-2/files-2.1/0cc0ef843c172e41779de44cec16bda5/jetified-play-services-auth-19.2.0/AndroidManifest.xml:27:13-72
+77        <!--
+78            Service handling Google Sign-In user revocation. For apps that do not integrate with
+79            Google Sign-In, this service will never be started.
+80        -->
+81        <service
+81-->[com.google.android.gms:play-services-auth:19.2.0] /home/can/.gradle/caches/transforms-2/files-2.1/0cc0ef843c172e41779de44cec16bda5/jetified-play-services-auth-19.2.0/AndroidManifest.xml:33:9-37:51
+82            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+82-->[com.google.android.gms:play-services-auth:19.2.0] /home/can/.gradle/caches/transforms-2/files-2.1/0cc0ef843c172e41779de44cec16bda5/jetified-play-services-auth-19.2.0/AndroidManifest.xml:34:13-89
+83            android:exported="true"
+83-->[com.google.android.gms:play-services-auth:19.2.0] /home/can/.gradle/caches/transforms-2/files-2.1/0cc0ef843c172e41779de44cec16bda5/jetified-play-services-auth-19.2.0/AndroidManifest.xml:35:13-36
+84            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+84-->[com.google.android.gms:play-services-auth:19.2.0] /home/can/.gradle/caches/transforms-2/files-2.1/0cc0ef843c172e41779de44cec16bda5/jetified-play-services-auth-19.2.0/AndroidManifest.xml:36:13-107
+85            android:visibleToInstantApps="true" />
+85-->[com.google.android.gms:play-services-auth:19.2.0] /home/can/.gradle/caches/transforms-2/files-2.1/0cc0ef843c172e41779de44cec16bda5/jetified-play-services-auth-19.2.0/AndroidManifest.xml:37:13-48
+86
+87        <activity
+87-->[com.google.android.gms:play-services-base:17.5.0] /home/can/.gradle/caches/transforms-2/files-2.1/222f43782eebddff360724998c4eb188/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+88            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+88-->[com.google.android.gms:play-services-base:17.5.0] /home/can/.gradle/caches/transforms-2/files-2.1/222f43782eebddff360724998c4eb188/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+89            android:exported="false"
+89-->[com.google.android.gms:play-services-base:17.5.0] /home/can/.gradle/caches/transforms-2/files-2.1/222f43782eebddff360724998c4eb188/jetified-play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+90            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+90-->[com.google.android.gms:play-services-base:17.5.0] /home/can/.gradle/caches/transforms-2/files-2.1/222f43782eebddff360724998c4eb188/jetified-play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+91
+92        <provider
+92-->[com.google.firebase:firebase-common:20.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/f8ae34a8c3b0d31be812a2c2336520fd/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+93            android:name="com.google.firebase.provider.FirebaseInitProvider"
+93-->[com.google.firebase:firebase-common:20.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/f8ae34a8c3b0d31be812a2c2336520fd/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+94            android:authorities="com.eczanem_nerede.firebaseinitprovider"
+94-->[com.google.firebase:firebase-common:20.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/f8ae34a8c3b0d31be812a2c2336520fd/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+95            android:directBootAware="true"
+95-->[com.google.firebase:firebase-common:20.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/f8ae34a8c3b0d31be812a2c2336520fd/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+96            android:exported="false"
+96-->[com.google.firebase:firebase-common:20.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/f8ae34a8c3b0d31be812a2c2336520fd/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+97            android:initOrder="100" />
+97-->[com.google.firebase:firebase-common:20.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/f8ae34a8c3b0d31be812a2c2336520fd/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+98
+99        <meta-data
+99-->[com.google.android.gms:play-services-basement:17.5.0] /home/can/.gradle/caches/transforms-2/files-2.1/f47c93a5f0cc5883de263c2e6c38c72e/jetified-play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+100            android:name="com.google.android.gms.version"
+100-->[com.google.android.gms:play-services-basement:17.5.0] /home/can/.gradle/caches/transforms-2/files-2.1/f47c93a5f0cc5883de263c2e6c38c72e/jetified-play-services-basement-17.5.0/AndroidManifest.xml:24:13-58
+101            android:value="@integer/google_play_services_version" />
+101-->[com.google.android.gms:play-services-basement:17.5.0] /home/can/.gradle/caches/transforms-2/files-2.1/f47c93a5f0cc5883de263c2e6c38c72e/jetified-play-services-basement-17.5.0/AndroidManifest.xml:25:13-66
+102    </application>
+103
+104</manifest>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {
    StyleSheet,
    Text,
@@ -15,6 +15,10 @@ import Input from '../Components/Input';
 import {KeyboardAwareScrollView} from 'react-native-keyboard-aware-scroll-view';
 
 export default function Login({navigation}) {
+
+   const [kimlikNo, setKimlikNo] = useState('');
+   const [password, setPassword] = useState('');
+
    return (
       <SafeAreaView style={styles.container}>
          
@@ -35,6 +39,10 @@ export default function Login({navigation}) {
                   returnKeyType={'next'}
                   //onSubmitEditing={() => this.passwordInput.focus()}
                   blurOnSubmit={false}
+                  onChangeText={value => (setKimlikNo = value)}
+                  value={kimlikNo}
+                  keyboardType={'numeric'}
+               
                />
 
                <Input
@@ -42,6 +50,9 @@ export default function Login({navigation}) {
                   placeholderTextColor="gray"
                   secureTextEntry={true}
                   //inputRef={input => (this.passwordInput = input)}
+                  onChangeText={value => (setPassword = value)}
+                  value={password}
+                  secureTextEntry={true}
                />
 
                <View style={styles.V_P}>
