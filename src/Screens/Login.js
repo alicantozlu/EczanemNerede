@@ -15,13 +15,17 @@ import Input from '../Components/Input';
 import {KeyboardAwareScrollView} from 'react-native-keyboard-aware-scroll-view';
 
 export default function Login({navigation}) {
-
    const [kimlikNo, setKimlikNo] = useState('');
    const [password, setPassword] = useState('');
 
+   const handleOnSubmit = () => {
+      if(kimlikNo!='' && password!=''){
+         //Sign in
+      }
+   };
+
    return (
       <SafeAreaView style={styles.container}>
-         
          <KeyboardAvoidingView style={{flex: 1}} behavior="padding">
             <View style={styles.V_Logo}>
                <Image
@@ -32,7 +36,6 @@ export default function Login({navigation}) {
             </View>
 
             <View style={styles.V_Entry}>
-
                <Input
                   placeholder="T.C. Kimlik No"
                   placeholderTextColor="gray"
@@ -42,7 +45,6 @@ export default function Login({navigation}) {
                   onChangeText={value => (setKimlikNo = value)}
                   value={kimlikNo}
                   keyboardType={'numeric'}
-               
                />
 
                <Input
@@ -56,7 +58,6 @@ export default function Login({navigation}) {
                />
 
                <View style={styles.V_P}>
-
                   <Pressable
                      onPress={() => {
                         navigation.navigate('Registration');
@@ -69,17 +70,17 @@ export default function Login({navigation}) {
                      }}>
                      <Text style={styles.T_P}>Şifremi Unuttum</Text>
                   </Pressable>
-
                </View>
 
                <View style={styles.V_B_Login}>
-                  <Button_LogReg text="Sisteme Giriş Yap" />
+                  <Button_LogReg
+                     handleOnPress={handleOnSubmit}
+                     text="Sisteme Giriş Yap"
+                  />
                </View>
-               
             </View>
 
             <View style={styles.V_Bottom}></View>
-            
          </KeyboardAvoidingView>
       </SafeAreaView>
    );
