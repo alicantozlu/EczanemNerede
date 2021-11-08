@@ -2,16 +2,14 @@ import React, {Component} from 'react';
 import {Text, StyleSheet, View, TextInput} from 'react-native';
 
 export default class Input extends Component {
-   state = {
-      text: '',
-   };
    render() {
+      const {text, onChangeText, value} = this.props;
       return (
          <TextInput
             {...this.props}
             style={styles.TI_Style}
-            value={this.state.text}
-            onChangeText={text => this.setState({text})}
+            value={value}
+            onChangeText={onChangeText}
             ref={this.props.inputRef}
          />
       );

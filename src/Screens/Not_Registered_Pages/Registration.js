@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {
    StyleSheet,
    Text,
@@ -7,11 +7,25 @@ import {
    Pressable,
    KeyboardAvoidingView,
    SafeAreaView,
+   Alert,
 } from 'react-native';
 import Button_LogReg from '../../Components/Button_LogReg';
 import Input from '../../Components/Input';
 
 export default function Registration({navigation}) {
+   const [adSoyad, setadSoyad] = useState('');
+   const [kimlikNo, setKimlikNo] = useState('');
+   const [email, setEmail] = useState('');
+   const [password, setPassword] = useState('');
+
+   const handleOnSubmit = () => {
+      if (adSoyad != '' && kimlikNo != '' && email != '' && password != '') {
+         //Sign in
+      }else{
+         Alert.alert("password did not match");
+      }
+   };
+
    return (
       <SafeAreaView style={styles.container}>
          <KeyboardAvoidingView style={{flex: 1}} behavior="padding">
@@ -29,6 +43,8 @@ export default function Registration({navigation}) {
                   placeholderTextColor="gray"
                   returnKeyType={'next'}
                   blurOnSubmit={false}
+                  onChangeText={value => (setadSoyad = value)}
+                  value={adSoyad}
                   //   onSubmitEditing={() => this.tcKimlikInput.focus()}
                />
                <Input
@@ -36,6 +52,9 @@ export default function Registration({navigation}) {
                   placeholderTextColor="gray"
                   returnKeyType={'next'}
                   blurOnSubmit={false}
+                  onChangeText={value => (setKimlikNo = value)}
+                  value={kimlikNo}
+                  keyboardType={'numeric'}
                   //   onSubmitEditing={() => this.mailInput.focus()}
                   //  inputRef={input => (this.tcKimlikInput = input)}
                />
@@ -44,14 +63,19 @@ export default function Registration({navigation}) {
                   placeholderTextColor="gray"
                   returnKeyType={'next'}
                   blurOnSubmit={false}
+                  onChangeText={value => (setEmail = value)}
+                  value={email}
+                  keyboardType={'email-address'}
                   //  onSubmitEditing={() => this.passwordInput.focus()}
                   //  inputRef={input => (this.mailInput = input)}
                />
                <Input
                   placeholder="Şifre"
                   placeholderTextColor="gray"
+                  onChangeText={value => (setPassword = value)}
                   returnKeyType={'go'}
                   secureTextEntry={true}
+                  value={password}
                   //  inputRef={input => (this.passwordInput = input)}
                />
                {/* -------------------------------------------------------------------------- */}
@@ -64,7 +88,10 @@ export default function Registration({navigation}) {
                   </Pressable>
                </View>
 
-               <Button_LogReg text="Kaydı Tamamla" />
+               <Button_LogReg
+                  text="Kaydı Tamamla"
+                  handleOnPress={handleOnSubmit}
+               />
             </View>
 
             <View style={styles.V_Bottom}></View>

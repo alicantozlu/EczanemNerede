@@ -5,8 +5,9 @@ export default class Button_LogReg extends Component {
    render() {
       const {text, handleOnPress} = this.props;
       return (
-         <TouchableOpacity style={styles.TO_Button}>
-            {handleOnPress}
+         <TouchableOpacity
+            handleOnPress={handleOnPress}
+            style={styles.TO_Button}>
             <Text style={styles.T_Button}>{text}</Text>
          </TouchableOpacity>
       );

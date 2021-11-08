@@ -64,12 +64,6 @@ export default function Login({navigation}) {
                      }}>
                      <Text style={styles.T_P}>Kayıt Ol</Text>
                   </Pressable>
-                  <Pressable
-                     onPress={() => {
-                        navigation.navigate('ForgotPas');
-                     }}>
-                     <Text style={styles.T_P}>Şifremi Unuttum</Text>
-                  </Pressable>
                </View>
 
                <View style={styles.V_B_Login}>
