@@ -12,6 +12,10 @@ target 'Eczanem_Nerede' do
     :hermes_enabled => false
   )
 
+  pod 'RNFBApp', :path => '../node_modules/@react-native-firebase/app'
+
+  pod 'RNFBAuth', :path => '../node_modules/@react-native-firebase/auth'
+
   target 'Eczanem_NeredeTests' do
     inherit! :complete
     # Pods for testing

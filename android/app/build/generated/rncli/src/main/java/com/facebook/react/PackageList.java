@@ -17,6 +17,8 @@ import com.reactnativecommunity.geolocation.GeolocationPackage;
 import org.reactnative.maskedview.RNCMaskedViewPackage;
 // @react-native-firebase/app
 import io.invertase.firebase.app.ReactNativeFirebaseAppPackage;
+// @react-native-firebase/auth
+import io.invertase.firebase.auth.ReactNativeFirebaseAuthPackage;
 // react-native-gesture-handler
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 // react-native-maps
@@ -75,6 +77,7 @@ public class PackageList {
       new GeolocationPackage(),
       new RNCMaskedViewPackage(),
       new ReactNativeFirebaseAppPackage(),
+      new ReactNativeFirebaseAuthPackage(),
       new RNGestureHandlerPackage(),
       new MapsPackage(),
       new ReanimatedPackage(),

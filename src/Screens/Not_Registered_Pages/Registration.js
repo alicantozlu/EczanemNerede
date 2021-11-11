@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {
    StyleSheet,
    Text,
@@ -7,11 +7,24 @@ import {
    Pressable,
    KeyboardAvoidingView,
    SafeAreaView,
+   Alert,
 } from 'react-native';
 import Button_LogReg from '../../Components/Button_LogReg';
 import Input from '../../Components/Input';
+import {singUp} from '../../utils/auth';
 
 export default function Registration({navigation}) {
+   const [email, setEmail] = useState('');
+   const [password, setPassword] = useState('');
+
+   const handleOnSubmit = () => {
+      if (email != '' && password != '') {
+         singUp(email, password);
+      } else {
+         Alert.alert('password did not match');
+      }
+   };
+
    return (
       <SafeAreaView style={styles.container}>
          <KeyboardAvoidingView style={{flex: 1}} behavior="padding">
@@ -24,34 +37,48 @@ export default function Registration({navigation}) {
             </View>
             {/* -------------------------------------------------------------------------- */}
             <View style={styles.viewFormBilgileri}>
+               {/*
                <Input
                   placeholder="Ad Soyad"
                   placeholderTextColor="gray"
                   returnKeyType={'next'}
                   blurOnSubmit={false}
+                  onChangeText={value => (setadSoyad = value)}
+                  value={adSoyad}
                   //   onSubmitEditing={() => this.tcKimlikInput.focus()}
                />
+*/}
                <Input
-                  placeholder="T.C. Kimlik No"
+                  placeholder="Email"
                   placeholderTextColor="gray"
                   returnKeyType={'next'}
                   blurOnSubmit={false}
+                  onChangeText={value => setEmail(value)}
+                  value={email}
+                  keyboardType={'numeric'}
                   //   onSubmitEditing={() => this.mailInput.focus()}
                   //  inputRef={input => (this.tcKimlikInput = input)}
                />
+               {/*
                <Input
                   placeholder="Mail"
                   placeholderTextColor="gray"
                   returnKeyType={'next'}
                   blurOnSubmit={false}
+                  onChangeText={value => (setEmail = value)}
+                  value={email}
+                  keyboardType={'email-address'}
                   //  onSubmitEditing={() => this.passwordInput.focus()}
                   //  inputRef={input => (this.mailInput = input)}
                />
+*/}
                <Input
                   placeholder="Şifre"
                   placeholderTextColor="gray"
+                  onChangeText={value => setPassword(value)}
                   returnKeyType={'go'}
                   secureTextEntry={true}
+                  value={password}
                   //  inputRef={input => (this.passwordInput = input)}
                />
                {/* -------------------------------------------------------------------------- */}
@@ -64,7 +91,10 @@ export default function Registration({navigation}) {
                   </Pressable>
                </View>
 
-               <Button_LogReg text="Kaydı Tamamla" />
+               <Button_LogReg
+                  text="Kaydı Tamamla"
+                  handleOnPress={handleOnSubmit}
+               />
             </View>
 
             <View style={styles.V_Bottom}></View>
@@ -89,7 +119,7 @@ const styles = StyleSheet.create({
       height: '100%',
    },
    viewFormBilgileri: {
-      flex: 3,
+      flex: 2,
       justifyContent: 'space-between',
       marginHorizontal: '4%',
    },
