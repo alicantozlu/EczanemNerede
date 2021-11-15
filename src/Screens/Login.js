@@ -45,9 +45,15 @@ export default function Login({navigation}) {
                   returnKeyType={'next'}
                   //onSubmitEditing={() => this.passwordInput.focus()}
                   blurOnSubmit={false}
+<<<<<<< HEAD
                   onChangeText={value => setEmail(value)}
                   value={email}
                   keyboardType={'email-address'}
+=======
+                  onChangeText={value => (setKimlikNo = value)}
+                  value={kimlikNo}
+                  keyboardType={'numeric'}
+>>>>>>> 9f5954dc36e6aff83ef17fcd1b7d557ab0951b30
                />
 
                <Input

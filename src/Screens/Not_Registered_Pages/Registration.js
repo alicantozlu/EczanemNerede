@@ -7,6 +7,7 @@ import {
    Pressable,
    KeyboardAvoidingView,
    SafeAreaView,
+   Alert,
 } from 'react-native';
 import Button_LogReg from '../../Components/Button_LogReg';
 import Input from '../../Components/Input';
