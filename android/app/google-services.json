@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "688294736713",
-    "project_id": "eczanem-nerede-e7694",
-    "storage_bucket": "eczanem-nerede-e7694.appspot.com"
+    "project_number": "739595320638",
+    "project_id": "eczanem-nerede-49c01",
+    "storage_bucket": "eczanem-nerede-49c01.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:688294736713:android:5aa656d5b9bafcde096098",
+        "mobilesdk_app_id": "1:739595320638:android:5a763244730720bba9806f",
         "android_client_info": {
           "package_name": "com.eczanem_nerede"
         }
       },
       "oauth_client": [
         {
-          "client_id": "688294736713-1frije8m2rj4pjg8136m3lnnq70mkt8t.apps.googleusercontent.com",
+          "client_id": "739595320638-02sn4dm7ic9hi2nqhip7lnuup6o1fbc0.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA822fsaQ6QBukvCi_GPPur9-0Bri8yBG8"
+          "current_key": "AIzaSyCH4vT1Y9wuXWVBtZfRlNBo00g4wXbEU4Q"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "688294736713-1frije8m2rj4pjg8136m3lnnq70mkt8t.apps.googleusercontent.com",
+              "client_id": "739595320638-02sn4dm7ic9hi2nqhip7lnuup6o1fbc0.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

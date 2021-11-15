@@ -1,0 +1,4 @@
+#Mon Nov 15 14:54:01 TRT 2021
+base.0=/media/can/At/RN-Projects/Eczanem_Nerede/android/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

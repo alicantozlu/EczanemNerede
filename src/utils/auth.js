@@ -1,9 +1,10 @@
 import auth from '@react-native-firebase/auth';
 import {ToastAndroid} from 'react-native';
 
-export const singIn = (kimlikNo, password) => {
+export const singIn = (email, password) => {
+   console.log(email);
    auth()
-      .signInWithEmailAndPassword(kimlikNo, password)
+      .signInWithEmailAndPassword(email, password)
       .then(() => {
          ToastAndroid.show('Logged in', ToastAndroid.SHORT);
       })
@@ -13,9 +14,9 @@ export const singIn = (kimlikNo, password) => {
       });
 };
 
-export const singUp = (kimlikNo, password) => {
+export const singUp = (email, password) => {
    auth()
-      .createUserWithEmailAndPassword(kimlikNo, password)
+      .createUserWithEmailAndPassword(email, password)
       .then(() => {
          ToastAndroid.show('Signed Up', ToastAndroid.SHORT);
       })

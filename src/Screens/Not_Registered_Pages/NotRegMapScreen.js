@@ -34,7 +34,6 @@ export default function NotRegMapScreen() {
       }); */
       getRegisteredPharmacies();
    }, []);
-
    return (
       <View style={styles.container}>
          <MapView provider={PROVIDER_GOOGLE} style={styles.map} region={region}>

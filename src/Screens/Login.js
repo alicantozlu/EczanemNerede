@@ -9,6 +9,7 @@ import {
    Pressable,
    SafeAreaView,
    KeyboardAvoidingView,
+   Alert,
 } from 'react-native';
 import Button_LogReg from '../Components/Button_LogReg';
 import Input from '../Components/Input';
@@ -21,6 +22,7 @@ export default function Login({navigation}) {
 
    const handleOnSubmit = () => {
       if (email != '' && password != '') {
+         console.log(email + ' | ' + password);
          singIn(email, password);
       }
    };
@@ -43,9 +45,9 @@ export default function Login({navigation}) {
                   returnKeyType={'next'}
                   //onSubmitEditing={() => this.passwordInput.focus()}
                   blurOnSubmit={false}
-                  onChangeText={value => setEmail (value)}
+                  onChangeText={value => setEmail(value)}
                   value={email}
-                  keyboardType={'numeric'}
+                  keyboardType={'email-address'}
                />
 
                <Input
@@ -53,9 +55,8 @@ export default function Login({navigation}) {
                   placeholderTextColor="gray"
                   secureTextEntry={true}
                   //inputRef={input => (this.passwordInput = input)}
-                  onChangeText={value => setPassword (value)}
+                  onChangeText={value => setPassword(value)}
                   value={password}
-                  secureTextEntry={true}
                />
 
                <View style={styles.V_P}>

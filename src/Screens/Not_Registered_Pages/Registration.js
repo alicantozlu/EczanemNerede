@@ -7,7 +7,6 @@ import {
    Pressable,
    KeyboardAvoidingView,
    SafeAreaView,
-   Alert,
 } from 'react-native';
 import Button_LogReg from '../../Components/Button_LogReg';
 import Input from '../../Components/Input';
@@ -20,8 +19,6 @@ export default function Registration({navigation}) {
    const handleOnSubmit = () => {
       if (email != '' && password != '') {
          singUp(email, password);
-      } else {
-         Alert.alert('password did not match');
       }
    };
 
@@ -37,17 +34,6 @@ export default function Registration({navigation}) {
             </View>
             {/* -------------------------------------------------------------------------- */}
             <View style={styles.viewFormBilgileri}>
-               {/*
-               <Input
-                  placeholder="Ad Soyad"
-                  placeholderTextColor="gray"
-                  returnKeyType={'next'}
-                  blurOnSubmit={false}
-                  onChangeText={value => (setadSoyad = value)}
-                  value={adSoyad}
-                  //   onSubmitEditing={() => this.tcKimlikInput.focus()}
-               />
-*/}
                <Input
                   placeholder="Email"
                   placeholderTextColor="gray"
@@ -55,23 +41,10 @@ export default function Registration({navigation}) {
                   blurOnSubmit={false}
                   onChangeText={value => setEmail(value)}
                   value={email}
-                  keyboardType={'numeric'}
+                  keyboardType={'email-address'}
                   //   onSubmitEditing={() => this.mailInput.focus()}
                   //  inputRef={input => (this.tcKimlikInput = input)}
                />
-               {/*
-               <Input
-                  placeholder="Mail"
-                  placeholderTextColor="gray"
-                  returnKeyType={'next'}
-                  blurOnSubmit={false}
-                  onChangeText={value => (setEmail = value)}
-                  value={email}
-                  keyboardType={'email-address'}
-                  //  onSubmitEditing={() => this.passwordInput.focus()}
-                  //  inputRef={input => (this.mailInput = input)}
-               />
-*/}
                <Input
                   placeholder="Şifre"
                   placeholderTextColor="gray"
