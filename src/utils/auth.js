@@ -25,3 +25,11 @@ export const singUp = (email, password) => {
          console.log(err);
       });
 };
+
+export const signOut = () => {
+   auth()
+      .signOut()
+      .then(() => {
+         ToastAndroid.show('Signed Out', ToastAndroid.SHORT);
+      });
+};

@@ -5,7 +5,7 @@ import Button from '../Components/Button';
 export default function Nav({navigation}) {
    const [city, setCity] = useState('');
    useEffect(() => {
-      setCity('Ana Sayfa');
+      setCity('--------------- Ana Sayfa ---------------');
    }, []);
    return (
       <View>
@@ -16,6 +16,8 @@ export default function Nav({navigation}) {
             }}>
             <Text>NotRegHomePage</Text>
          </Pressable>
+
+         <Text>------</Text>
 
          <Pressable
             onPress={() => {
@@ -37,6 +39,7 @@ export default function Nav({navigation}) {
             }}>
             <Text>Login</Text>
          </Pressable>
+         <Text>-----------------------------</Text>
 
          <Button title={'Google Maps'} />
 
@@ -46,6 +49,7 @@ export default function Nav({navigation}) {
             }}>
             <Text>Kayıtlı Eczaneler</Text>
          </Pressable>
+         <Text>---------------</Text>
 
          <Pressable
             onPress={() => {
