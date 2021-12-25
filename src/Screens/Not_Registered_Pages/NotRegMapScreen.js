@@ -15,23 +15,11 @@ export default function NotRegMapScreen() {
       axios
          .get('https://api.jsonbin.io/b/606b39548be464182c592503/latest')
          .then(res => {
-            //console.log({res});
             const data = res.data.result;
             setDataSource(data);
          });
    };
    useEffect(() => {
-      /*     fetch('https://api.jsonbin.io/b/606b39548be464182c592503/latest', {
-      method: 'GET',
-    })
-      .then(response => response.json())
-      .then(responseJson => {
-        setDataSource(responseJson.result);
-        console.log('type = ', responseJson.result);
-      })
-      .catch(error => {
-        console.log(error);
-      }); */
       getRegisteredPharmacies();
    }, []);
    return (
