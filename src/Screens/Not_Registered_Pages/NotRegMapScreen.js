@@ -17,8 +17,8 @@ export default function NotRegMapScreen() {
    const setUpUserLocation = () => {
       Geolocation.getCurrentPosition(async data => {
          setOrigin({
-            latitude: 39.88587793186557, //data.coords.latitude,
-            longitude: 32.69729700408382, //data.coords.longitude,
+            latitude: data.coords.latitude, //39.88587793186557,
+            longitude: data.coords.longitude, //32.69729700408382,
             latitudeDelta: 0.05,
             longitudeDelta: 0.05,
          });
@@ -52,18 +52,27 @@ export default function NotRegMapScreen() {
       });
       //TODO: seçeceğin eczanenin latitude longitude bilgileriyle set destination yap burada setDestination({latitude: ..., longitude:..., latitudeDelta: 0.05, longitudeDelta: 0.05}) şeklinde
 
-      /*      axios
-         .get('https://api.jsonbin.io/b/606b39548be464182c592503/latest')
-         .then(res => {
-            const data = res.data.result;
-            setDataSource(data);
-         }); */
+      setDestination({
+         latitude: data.coords.latitude, //39.88587793186557,
+         longitude: data.coords.longitude, //32.69729700408382,
+         latitudeDelta: 0.05,
+         longitudeDelta: 0.05,
+      });
    };
 
    useEffect(() => {
       setUpUserLocation();
       getRegisteredPharmacies();
    }, []);
+
+   const onMarkerClicked = () => {
+      setDestination({
+         latitude: 39.88587793186557,
+         longitude: 32.69729700408382,
+         latitudeDelta: 0.05,
+         longitudeDelta: 0.05,
+      });
+   };
 
    return (
       <View style={styles.container}>
@@ -108,6 +117,7 @@ export default function NotRegMapScreen() {
                                  7,
                               ),
                            }}
+                           onPress={onMarkerClicked}
                         />
                      );
                   })}
