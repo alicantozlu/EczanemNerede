@@ -11,6 +11,7 @@ export default function RegPharmacy() {
     latitudeDelta: 28.487,
     longitudeDelta: 20.5876,
   });
+
   const getRegisteredPharmacies = async () => {
     axios
        .get(
@@ -22,6 +23,7 @@ export default function RegPharmacy() {
           setDataSource(data);
        });
  };
+ 
   useEffect(() => {
 /*     fetch('https://api.jsonbin.io/b/606b39548be464182c592503/latest', {
       method: 'GET',

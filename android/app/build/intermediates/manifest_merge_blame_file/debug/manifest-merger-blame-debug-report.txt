@@ -64,7 +64,7 @@
 35-->/media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:17:7-19:64
 36            android:name="com.google.android.geo.API_KEY"
 36-->/media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:18:7-52
-37            android:value="AIzaSyBA_D1NSjfbSitLbwhPSrdBpzUX0etXmCo" /> <!-- You will also only need to add this uses-library tag -->
+37            android:value="AIzaSyDqzdtI9OMH__I6VwNQfdslefn2W1DTNp8" /> <!-- You will also only need to add this uses-library tag -->
 37-->/media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:19:7-62
 38        <uses-library
 38-->/media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:22:7-85

@@ -11,14 +11,14 @@ export default function NotRegMapScreen() {
 
    const map = useRef();
 
-   const GOOGLE_MAPS_APIKEY = 'AIzaSyBA_D1NSjfbSitLbwhPSrdBpzUX0etXmCo';
+   const GOOGLE_MAPS_APIKEY = 'AIzaSyDqzdtI9OMH__I6VwNQfdslefn2W1DTNp8';
    const [dataSource, setDataSource] = useState([]);
 
    const setUpUserLocation = () => {
       Geolocation.getCurrentPosition(async data => {
          setOrigin({
-            latitude: data.coords.latitude, //39.88587793186557,
-            longitude: data.coords.longitude, //32.69729700408382,
+            latitude: data.coords.latitude,
+            longitude: data.coords.longitude,
             latitudeDelta: 0.05,
             longitudeDelta: 0.05,
          });
@@ -44,20 +44,7 @@ export default function NotRegMapScreen() {
             setDataSource(data);
          });
 
-      setDestination({
-         latitude: 39.946042319587356,
-         longitude: 32.80577171721625,
-         latitudeDelta: 0.05,
-         longitudeDelta: 0.05,
-      });
       //TODO: seçeceğin eczanenin latitude longitude bilgileriyle set destination yap burada setDestination({latitude: ..., longitude:..., latitudeDelta: 0.05, longitudeDelta: 0.05}) şeklinde
-
-      setDestination({
-         latitude: data.coords.latitude, //39.88587793186557,
-         longitude: data.coords.longitude, //32.69729700408382,
-         latitudeDelta: 0.05,
-         longitudeDelta: 0.05,
-      });
    };
 
    useEffect(() => {
@@ -65,10 +52,10 @@ export default function NotRegMapScreen() {
       getRegisteredPharmacies();
    }, []);
 
-   const onMarkerClicked = () => {
+   const onMarkerClicked = coordinate => {
       setDestination({
-         latitude: 39.88587793186557,
-         longitude: 32.69729700408382,
+         latitude: coordinate.latitude,
+         longitude: coordinate.longitude,
          latitudeDelta: 0.05,
          longitudeDelta: 0.05,
       });
