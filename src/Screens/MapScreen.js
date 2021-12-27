@@ -15,13 +15,14 @@ export default function MapScreen() {
       const header = {
          headers: {
             authorization:
-               'apikey 5LTegKaMLp39FKI8o4GLH9:3XJF8lzEdrDCFrabxLzYbz',
+               'apikey 5nF2NDns4klXxSVevhO8dj:4q1yjdETqZ0hlbq9Ili5us',
             'content-type': 'application/json',
          },
       };
 
       axios
          .get(
+            //'https://api.collectapi.com/health/dutyPharmacy?ilce=Ilkadim&il=Samsun',
             'https://api.collectapi.com/health/dutyPharmacy?ilce=%C3%87ankaya&il=Ankara',
             header,
          )

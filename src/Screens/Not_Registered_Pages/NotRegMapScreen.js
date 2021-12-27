@@ -29,7 +29,7 @@ export default function NotRegMapScreen() {
       const header = {
          headers: {
             authorization:
-               'apikey 5LTegKaMLp39FKI8o4GLH9:3XJF8lzEdrDCFrabxLzYbz',
+               'apikey 5nF2NDns4klXxSVevhO8dj:4q1yjdETqZ0hlbq9Ili5us',
             'content-type': 'application/json',
          },
       };
@@ -43,7 +43,12 @@ export default function NotRegMapScreen() {
             const data = res.data.result;
             setDataSource(data);
          });
-
+      /*axios
+         .get('https://api.jsonbin.io/b/606b39548be464182c592503/latest')
+         .then(res => {
+            const data = res.data.result;
+            setDataSource(data);
+         });*/
       //TODO: seçeceğin eczanenin latitude longitude bilgileriyle set destination yap burada setDestination({latitude: ..., longitude:..., latitudeDelta: 0.05, longitudeDelta: 0.05}) şeklinde
    };
 
@@ -68,7 +73,8 @@ export default function NotRegMapScreen() {
                ref={r => (map.current = r)}
                provider={PROVIDER_GOOGLE}
                style={styles.map}
-               region={origin}>
+               region={origin}
+               onMarkerPress={onMarkerClicked}>
                {origin && destination && (
                   <MapViewDirections
                      origin={origin}
@@ -104,7 +110,7 @@ export default function NotRegMapScreen() {
                                  7,
                               ),
                            }}
-                           onPress={onMarkerClicked}
+                           // onPress={onMarkerClicked}
                         />
                      );
                   })}
