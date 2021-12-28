@@ -16,6 +16,9 @@ export default function NotRegMapScreen() {
 
    const setUpUserLocation = () => {
       Geolocation.getCurrentPosition(async data => {
+         console.log(
+            'Konumum: ' + data.coords.latitude + ' ' + data.coords.longitude,
+         );
          setOrigin({
             latitude: data.coords.latitude,
             longitude: data.coords.longitude,
@@ -26,7 +29,7 @@ export default function NotRegMapScreen() {
    };
 
    const getRegisteredPharmacies = async () => {
-      const header = {
+      /*const header = {
          headers: {
             authorization:
                'apikey 5nF2NDns4klXxSVevhO8dj:4q1yjdETqZ0hlbq9Ili5us',
@@ -35,20 +38,21 @@ export default function NotRegMapScreen() {
       };
       axios
          .get(
-            'https://api.collectapi.com/health/dutyPharmacy?ilce=%C3%87ankaya&il=Ankara',
+            'https://api.collectapi.com/health/dutyPharmacy?ilce=Bafra&il=Samsun',
             header,
          )
          .then(res => {
             //console.log({res});
             const data = res.data.result;
             setDataSource(data);
-         });
-      /*axios
-         .get('https://api.jsonbin.io/b/606b39548be464182c592503/latest')
+         });*/
+      axios
+
+         .get('https://api.jsonbin.io/b/606fafdd181177735ef4bd95/latest')
          .then(res => {
             const data = res.data.result;
             setDataSource(data);
-         });*/
+         });
       //TODO: seçeceğin eczanenin latitude longitude bilgileriyle set destination yap burada setDestination({latitude: ..., longitude:..., latitudeDelta: 0.05, longitudeDelta: 0.05}) şeklinde
    };
 
@@ -57,10 +61,11 @@ export default function NotRegMapScreen() {
       getRegisteredPharmacies();
    }, []);
 
-   const onMarkerClicked = coordinate => {
+   const onMarkerClicked = ({nativeEvent}) => {
+      //console.log({nativeEvent});
       setDestination({
-         latitude: coordinate.latitude,
-         longitude: coordinate.longitude,
+         latitude: nativeEvent.coordinate.latitude,
+         longitude: nativeEvent.coordinate.longitude,
          latitudeDelta: 0.05,
          longitudeDelta: 0.05,
       });
