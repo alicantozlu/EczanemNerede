@@ -38,8 +38,6 @@ export default function Nav({navigation}) {
             <Text>Login</Text>
          </Pressable>
 
-         <Button title={'Google Maps'} />
-
          <Pressable
             onPress={() => {
                navigation.navigate('RegPharmacy');

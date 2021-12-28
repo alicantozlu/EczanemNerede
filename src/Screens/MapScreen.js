@@ -23,14 +23,22 @@ export default function MapScreen() {
       axios
          .get(
             //'https://api.collectapi.com/health/dutyPharmacy?ilce=Ilkadim&il=Samsun',
-            'https://api.collectapi.com/health/dutyPharmacy?ilce=%C3%87ankaya&il=Ankara',
+            'https://api.collectapi.com/health/dutyPharmacy?ilce=İlkadım&il=Samsun',
             header,
          )
          .then(res => {
-            //console.log({res});
+            console.log({res});
             const data = res.data.result;
             setDataSource(data);
          });
+
+      /*axios
+
+         .get('https://api.jsonbin.io/b/606fafdd181177735ef4bd95/latest')
+         .then(res => {
+            const data = res.data.result;
+            setDataSource(data);
+         });*/
    };
    useEffect(() => {
       // fetch(
@@ -67,6 +75,8 @@ export default function MapScreen() {
                   return (
                      <Marker
                         key={key}
+                        title={val.name + ' Eczanesi'}
+                        description={'Telefon: ' + val.phone}
                         coordinate={{
                            latitude: parseFloat(
                               val.loc.substring(0, val.loc.indexOf(',')),
