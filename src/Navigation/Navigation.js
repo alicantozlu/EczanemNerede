@@ -1,7 +1,6 @@
 import * as React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
-import MapScreen from '../Screens/MapScreen';
 import Registration from '../Screens/Not_Registered_Pages/Registration';
 import Login from '../Screens/Login';
 import RegPharmacy from '../Screens/RegPharmacy';
@@ -26,11 +25,6 @@ function Navigation() {
             <Stack.Screen
                name="NotRegMapScreen"
                component={NotRegMapPage}
-               options={{headerShown: false}}
-            />
-            <Stack.Screen
-               name="Maps"
-               component={MapScreen}
                options={{headerShown: false}}
             />
             <Stack.Screen
