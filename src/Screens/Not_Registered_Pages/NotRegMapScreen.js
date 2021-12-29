@@ -12,24 +12,18 @@ export default function NotRegMapScreen() {
    const map = useRef();
    const GOOGLE_MAPS_APIKEY = 'AIzaSyDqzdtI9OMH__I6VwNQfdslefn2W1DTNp8';
    const [dataSource, setDataSource] = useState([]);
+   const GEOLOCATION_SETTINGS = {
+      enableHighAccuracy: true,
+      distanceFilter: 1,
+      maximumAge: 1000,
+   };
 
    function reverseString(str) {
-      var splitString = str.split(''); // var splitString = "hello".split("");
-      // ["h", "e", "l", "l", "o"]
-
-      // Step 2. Use the reverse() method to reverse the new created array
-      var reverseArray = splitString.reverse(); // var reverseArray = ["h", "e", "l", "l", "o"].reverse();
-      // ["o", "l", "l", "e", "h"]
-
-      // Step 3. Use the join() method to join all elements of the array into a string
-      var joinArray = reverseArray.join(''); // var joinArray = ["o", "l", "l", "e", "h"].join("");
-      // "olleh"
-
-      //Step 4. Return the reversed string
-      return joinArray; // "olleh"
+      var splitString = str.split('');
+      var reverseArray = splitString.reverse();
+      var joinArray = reverseArray.join('');
+      return joinArray;
    }
-
-   reverseString('hello');
 
    const setUpUserLocation = () => {
       Geolocation.getCurrentPosition(async data => {
@@ -69,7 +63,16 @@ export default function NotRegMapScreen() {
                const header = {
                   headers: {
                      authorization:
-                        'apikey 2m5sxldyGFNWq0alxUPQtP:7pDrUScGSUukba2puOIFT9',
+                        'apikey 0ww4o5CiMwmCSt42G6gFQp:4HRgIWQZJZwFgNVP6PYu1N',
+                     /*
+                        apikey 1kVhFZzsNed1xmAhCJGOmy:1SG53QWzqCtUFFN0dq074I
+                        apikey 65SA4uSv7KQUV4AWxn2RAa:4QuqXIbfC3jJcfHziaXpnA
+                        apikey 0t2IGaI63WSFkjOZTMT8mY:6X1MZxQTC3wpwMpVZwL4O6
+                        apikey 1Aycjx6qduhKlW6ssF7SGs:3i2EpJZSBa6iUCeFRC69Py
+                        apikey 0FncQs8BGeltzg2hBnnVFE:0EK1WlgIUbdrogckYylLo7
+                        apikey 0ru69JLLDU3iVUSWxuEA2b:3FR8JAYVpPD9qslegCYHqb
+                        apikey 6u1NmOPZlvzr63ao6iS86F:4YGPzEAnAHHYMUc0qmnn2Q
+                     */
                      'content-type': 'application/json',
                   },
                };
@@ -120,6 +123,16 @@ export default function NotRegMapScreen() {
                style={styles.map}
                region={origin}
                onMarkerPress={onMarkerClicked}>
+               <Marker
+                  coordinate={{
+                     latitude: origin.latitude,
+                     longitude: origin.longitude,
+                  }}>
+                  <View style={styles.circle}>
+                     <View style={styles.stroke} />
+                     <View style={styles.core} />
+                  </View>
+               </Marker>
                {origin && destination && (
                   <MapViewDirections
                      origin={origin}
@@ -144,9 +157,9 @@ export default function NotRegMapScreen() {
                      return (
                         <Marker
                            key={key}
-                           title={val.name/* + ' Eczanesi'*/}
+                           title={val.name /* + ' Eczanesi'*/}
                            description={'Telefon: ' + val.phone}
-                           pinColor={'blue'}
+                           pinColor={'red'}
                            coordinate={{
                               latitude: parseFloat(
                                  val.loc.substring(0, val.loc.indexOf(',')),
@@ -191,5 +204,32 @@ const styles = StyleSheet.create({
    item: {
       fontSize: 17,
       fontWeight: 'bold',
+   },
+   circle: {
+      width: 26,
+      height: 26,
+      borderRadius: 50,
+      shadowColor: '#000',
+      shadowOffset: {width: 2, height: 2},
+      shadowOpacity: 0.9,
+   },
+   stroke: {
+      width: 26,
+      height: 26,
+      borderRadius: 50,
+      backgroundColor: '#7e74ed',
+      zIndex: 1,
+   },
+   core: {
+      width: 18,
+      height: 18,
+      position: 'absolute',
+      top: 4,
+      left: 4,
+      right: 4,
+      bottom: 4,
+      backgroundColor: '#e9e8f7',
+      zIndex: 2,
+      borderRadius: 50,
    },
 });
