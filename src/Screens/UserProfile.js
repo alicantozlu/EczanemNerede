@@ -1,12 +1,17 @@
 //import liraries
 import React, {Component} from 'react';
 import {View, Text, StyleSheet} from 'react-native';
+import Button_LogReg from '../Components/Button_LogReg';
 
 // create a component
 const UserProfile = () => {
+   const handleOnSubmit = () => {
+      console.log('asd');
+   };
+
    return (
       <View style={styles.container}>
-         <Text>UserProfile</Text>
+         <Button_LogReg handleOnPress={handleOnSubmit} text="Çıkış" />
       </View>
    );
 };
