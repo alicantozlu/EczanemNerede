@@ -1,3 +1,4 @@
+import auth, {firebase} from '@react-native-firebase/auth';
 import React, {useState, useEffect} from 'react';
 import {
    StyleSheet,
@@ -11,7 +12,13 @@ import {
 const SplashScreen = ({navigation}) => {
    useEffect(() => {
       setTimeout(() => {
-         navigation.replace('NotRegHomePage'); // Giris kontrolune gore degistirilecek
+         firebase.auth().onAuthStateChanged(user => {
+            if (user) {
+               navigation.replace('RegHomePage'); //
+            } else {
+               navigation.replace('NotRegHomePage'); //
+            }
+         });
       }, 5000);
    });
 
