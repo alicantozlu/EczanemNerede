@@ -1,12 +1,18 @@
 //import liraries
 import React, {Component} from 'react';
+import auth, {firebase} from '@react-native-firebase/auth';
 import {View, Text, StyleSheet} from 'react-native';
 import Button_LogReg from '../Components/Button_LogReg';
 
 // create a component
-const UserProfile = () => {
+const UserProfile = ({navigation}) => {
    const handleOnSubmit = () => {
-      console.log('asd');
+      auth()
+         .signOut()
+         .then(() => {
+            navigation.replace('NotRegHomePage');
+         })
+         .catch(error => alert(error.message));
    };
 
    return (
