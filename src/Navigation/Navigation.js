@@ -10,13 +10,16 @@ import Nav from '../Screens/Nav';
 import NotRegHomePage from '../Screens/Not_Registered_Pages/NotRegHomePage';
 import NotRegMapPage from '../Screens/Not_Registered_Pages/NotRegMapScreen';
 import SplashScreen from '../Screens/SplashScreen';
+import RegHomePage from '../Screens/RegHomePage';
+import ConstactsScreen from '../Screens/ContactsScreen';
+import UserProfile from '../Screens/UserProfile';
 
 const Stack = createStackNavigator();
 
 function Navigation() {
    return (
       <NavigationContainer>
-         <Stack.Navigator initialRouteName="SplashScreen">
+         <Stack.Navigator initialRouteName="Nav">
             <Stack.Screen
                name="SplashScreen"
                component={SplashScreen}
@@ -55,6 +58,21 @@ function Navigation() {
             <Stack.Screen
                name="Chat"
                component={ChatScreen}
+               options={{headerShown: false}}
+            />
+            <Stack.Screen
+               name="RegHomePage"
+               component={RegHomePage}
+               options={{headerShown: false}}
+            />
+            <Stack.Screen
+               name="ContactsScreen"
+               component={ConstactsScreen}
+               options={{headerShown: false}}
+            />
+            <Stack.Screen
+               name="UserProfile"
+               component={UserProfile}
                options={{headerShown: false}}
             />
          </Stack.Navigator>

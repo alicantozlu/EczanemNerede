@@ -11,7 +11,7 @@ import {
 const SplashScreen = ({navigation}) => {
    useEffect(() => {
       setTimeout(() => {
-         navigation.replace('NotRegHomePage'); // NotRegHomePage Nav
+         navigation.replace('NotRegHomePage'); // Giris kontrolune gore degistirilecek
       }, 5000);
    });
 

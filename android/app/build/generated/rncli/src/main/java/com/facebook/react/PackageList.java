@@ -19,6 +19,8 @@ import org.reactnative.maskedview.RNCMaskedViewPackage;
 import io.invertase.firebase.app.ReactNativeFirebaseAppPackage;
 // @react-native-firebase/auth
 import io.invertase.firebase.auth.ReactNativeFirebaseAuthPackage;
+// lottie-react-native
+import com.airbnb.android.react.lottie.LottiePackage;
 // react-native-gesture-handler
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 // react-native-maps
@@ -78,6 +80,7 @@ public class PackageList {
       new RNCMaskedViewPackage(),
       new ReactNativeFirebaseAppPackage(),
       new ReactNativeFirebaseAuthPackage(),
+      new LottiePackage(),
       new RNGestureHandlerPackage(),
       new MapsPackage(),
       new ReanimatedPackage(),

@@ -29,6 +29,14 @@ export default function Nav({navigation}) {
          <Pressable
             style={styles.st}
             onPress={() => {
+               navigation.navigate('Login');
+            }}>
+            <Text>Login</Text>
+         </Pressable>
+
+         <Pressable
+            style={styles.st}
+            onPress={() => {
                navigation.navigate('Registration');
             }}>
             <Text>Registration</Text>
@@ -37,9 +45,17 @@ export default function Nav({navigation}) {
          <Pressable
             style={styles.st}
             onPress={() => {
-               navigation.navigate('Login');
+               navigation.navigate('SplashScreen');
             }}>
-            <Text>Login</Text>
+            <Text>SplashScreen</Text>
+         </Pressable>
+
+         <Pressable
+            style={styles.st}
+            onPress={() => {
+               navigation.navigate('RegHomePage');
+            }}>
+            <Text>RegHomePage</Text>
          </Pressable>
 
          <Pressable
@@ -53,6 +69,14 @@ export default function Nav({navigation}) {
          <Pressable
             style={styles.st}
             onPress={() => {
+               navigation.navigate('ContactsScreen');
+            }}>
+            <Text>ContactsScreen</Text>
+         </Pressable>
+
+         <Pressable
+            style={styles.st}
+            onPress={() => {
                navigation.navigate('Chat');
             }}>
             <Text>Mesajlaşma Ekranı</Text>
@@ -61,9 +85,9 @@ export default function Nav({navigation}) {
          <Pressable
             style={styles.st}
             onPress={() => {
-               navigation.navigate('SplashScreen');
+               navigation.navigate('UserProfile');
             }}>
-            <Text>SplashScreen</Text>
+            <Text>UserProfile</Text>
          </Pressable>
       </View>
    );
