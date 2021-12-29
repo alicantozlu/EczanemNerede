@@ -9,14 +9,24 @@ import HomePage from '../Screens/Nav';
 import Nav from '../Screens/Nav';
 import NotRegHomePage from '../Screens/Not_Registered_Pages/NotRegHomePage';
 import NotRegMapPage from '../Screens/Not_Registered_Pages/NotRegMapScreen';
+import SplashScreen from '../Screens/SplashScreen';
 
 const Stack = createStackNavigator();
 
 function Navigation() {
    return (
       <NavigationContainer>
-         <Stack.Navigator initialRouteName="Nav">
-            <Stack.Screen name="Nav" component={Nav} />
+         <Stack.Navigator initialRouteName="SplashScreen">
+            <Stack.Screen
+               name="SplashScreen"
+               component={SplashScreen}
+               options={{headerShown: false}}
+            />
+            <Stack.Screen
+               name="Nav"
+               component={Nav}
+               options={{headerShown: false}}
+            />
             <Stack.Screen
                name="NotRegHomePage"
                component={NotRegHomePage}

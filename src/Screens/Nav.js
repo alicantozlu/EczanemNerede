@@ -11,6 +11,7 @@ export default function Nav({navigation}) {
       <View>
          <Text>{city}</Text>
          <Pressable
+            style={styles.st}
             onPress={() => {
                navigation.navigate('NotRegHomePage');
             }}>
@@ -18,6 +19,7 @@ export default function Nav({navigation}) {
          </Pressable>
 
          <Pressable
+            style={styles.st}
             onPress={() => {
                navigation.navigate('NotRegMapScreen');
             }}>
@@ -25,6 +27,7 @@ export default function Nav({navigation}) {
          </Pressable>
 
          <Pressable
+            style={styles.st}
             onPress={() => {
                navigation.navigate('Registration');
             }}>
@@ -32,6 +35,7 @@ export default function Nav({navigation}) {
          </Pressable>
 
          <Pressable
+            style={styles.st}
             onPress={() => {
                navigation.navigate('Login');
             }}>
@@ -39,6 +43,7 @@ export default function Nav({navigation}) {
          </Pressable>
 
          <Pressable
+            style={styles.st}
             onPress={() => {
                navigation.navigate('RegPharmacy');
             }}>
@@ -46,13 +51,29 @@ export default function Nav({navigation}) {
          </Pressable>
 
          <Pressable
+            style={styles.st}
             onPress={() => {
                navigation.navigate('Chat');
             }}>
             <Text>Mesajlaşma Ekranı</Text>
          </Pressable>
+
+         <Pressable
+            style={styles.st}
+            onPress={() => {
+               navigation.navigate('SplashScreen');
+            }}>
+            <Text>SplashScreen</Text>
+         </Pressable>
       </View>
    );
 }
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+   st: {
+      width: 200,
+      height: 40,
+      backgroundColor: '#ddd',
+      marginTop: 15,
+   },
+});
