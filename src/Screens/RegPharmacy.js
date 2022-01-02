@@ -204,7 +204,13 @@ export default function RegPharmacy() {
                                  7,
                               ),
                            }}
-                        />
+                           onCalloutPress={() => alert('Clicked')}>
+                           <MapView.Callout>
+                              <View>
+                                 <Text>Click Me!</Text>
+                              </View>
+                           </MapView.Callout>
+                        </Marker>
                      );
                   })}
             </MapView>
