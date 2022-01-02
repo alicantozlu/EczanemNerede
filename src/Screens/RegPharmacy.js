@@ -1,10 +1,18 @@
 import React, {useEffect, useState, useRef} from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import {
+   Image,
+   Modal,
+   StyleSheet,
+   Text,
+   TouchableOpacity,
+   View,
+} from 'react-native';
 import MapView, {PROVIDER_GOOGLE, Marker} from 'react-native-maps';
 import MapViewDirections from 'react-native-maps-directions';
 import Geolocation from '@react-native-community/geolocation';
 import Geocoder from 'react-native-geocoding';
 import axios from 'axios';
+import {withSafeAreaInsets} from 'react-native-safe-area-context';
 
 export default function RegPharmacy() {
    const [origin, setOrigin] = useState();
@@ -18,6 +26,10 @@ export default function RegPharmacy() {
       distanceFilter: 1,
       maximumAge: 1000,
    };
+   const [visible, setVisible] = React.useState(false);
+   const [eczaneAdi, setEczaneAdi] = useState();
+   const [eczaneAdresi, setEczaneAdresi] = useState();
+   const [eczaneNumarasi, setEczaneNumarasi] = useState();
 
    function reverseString(str) {
       var splitString = str.split('');
@@ -64,9 +76,8 @@ export default function RegPharmacy() {
                const header = {
                   headers: {
                      authorization:
-                        'apikey 0ww4o5CiMwmCSt42G6gFQp:4HRgIWQZJZwFgNVP6PYu1N',
+                        'apikey 1kVhFZzsNed1xmAhCJGOmy:1SG53QWzqCtUFFN0dq074I',
                      /*
-                        apikey 1kVhFZzsNed1xmAhCJGOmy:1SG53QWzqCtUFFN0dq074I
                         apikey 65SA4uSv7KQUV4AWxn2RAa:4QuqXIbfC3jJcfHziaXpnA
                         apikey 0t2IGaI63WSFkjOZTMT8mY:6X1MZxQTC3wpwMpVZwL4O6
                         apikey 1Aycjx6qduhKlW6ssF7SGs:3i2EpJZSBa6iUCeFRC69Py
@@ -125,8 +136,44 @@ export default function RegPharmacy() {
       });
    };
 
+   const ModalPoup = ({visible, children}) => {
+      return (
+         <Modal transparent visible={visible}>
+            <View style={styles.modalBackground}>
+               <View style={styles.modalContainer}>{children}</View>
+            </View>
+         </Modal>
+      );
+   };
+
+   const onTitlePressed = val => {
+      setVisible(true);
+      setEczaneAdi(val.name);
+      setEczaneAdresi(val.address);
+      setEczaneNumarasi(val.phone);
+   };
+
    return (
       <View style={styles.container}>
+         <ModalPoup visible={visible}>
+            <View style={{alignItems: 'center'}}>
+               <TouchableOpacity
+                  onPress={() => setVisible(false)}
+                  style={styles.modalHeader}>
+                  <Image
+                     source={require('../Images/close.png')}
+                     style={{height: 30, width: 30}}
+                  />
+               </TouchableOpacity>
+               <Text>Ad: {eczaneAdi}</Text>
+               <Text>Adres: {eczaneAdresi}</Text>
+               <Text>Telefon: {eczaneNumarasi}</Text>
+
+               <TouchableOpacity>
+                  <Text>Mesaj Gönder</Text>
+               </TouchableOpacity>
+            </View>
+         </ModalPoup>
          {origin && (
             <MapView
                ref={r => (map.current = r)}
@@ -187,12 +234,11 @@ export default function RegPharmacy() {
                   })}
                {dataSource2 &&
                   dataSource2.map((val, key) => {
+                     console.log(val);
                      return (
                         <Marker
                            zIndex={2}
                            key={key}
-                           title={val.name /* + ' Eczanesi'*/}
-                           description={'Telefon: ' + val.phone}
                            pinColor={'blue'}
                            coordinate={{
                               latitude: parseFloat(
@@ -204,10 +250,11 @@ export default function RegPharmacy() {
                                  7,
                               ),
                            }}
-                           onCalloutPress={() => alert('Clicked')}>
+                           onCalloutPress={onTitlePressed}>
                            <MapView.Callout>
                               <View>
-                                 <Text>Click Me!</Text>
+                                 <Text>{val.name + ' Eczanesi'}</Text>
+                                 <Text>{'Telefon: ' + val.phone}</Text>
                               </View>
                            </MapView.Callout>
                         </Marker>
@@ -271,5 +318,24 @@ const styles = StyleSheet.create({
       backgroundColor: '#e9e8f7',
       zIndex: 2,
       borderRadius: 50,
+   },
+   modalBackground: {
+      flex: 1,
+      backgroundColor: 'rgba(0,0,0,0.5)',
+      justifyContent: 'center',
+      alignItems: 'center',
+   },
+   modalContainer: {
+      width: '80%',
+      backgroundColor: 'white',
+      paddingHorizontal: 20,
+      paddingVertical: 20,
+      borderRadius: 20,
+      elevation: 20,
+   },
+   modalHeader: {
+      width: '100%',
+      height: 30,
+      alignItems: 'flex-end',
    },
 });
