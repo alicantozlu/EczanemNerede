@@ -6,7 +6,12 @@ import Icon2 from 'react-native-vector-icons/Ionicons';
 import Contact from '../Components/Contact';
 
 const ConstactsScreen = ({navigation}) => {
-   useEffect(() => {}, []);
+   useEffect(() => {
+      firebase
+         .firestore()
+         .collection('chats')
+         .onSnapshot(() => {});
+   }, []);
 
    return (
       <SafeAreaView style={styles.container}>
