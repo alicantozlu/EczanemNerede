@@ -14,7 +14,7 @@ import Geocoder from 'react-native-geocoding';
 import axios from 'axios';
 import {withSafeAreaInsets} from 'react-native-safe-area-context';
 
-export default function RegPharmacy() {
+export default function RegPharmacy({navigation}) {
    const [origin, setOrigin] = useState();
    const [destination, setDestination] = useState();
    const map = useRef();
@@ -156,22 +156,47 @@ export default function RegPharmacy() {
    return (
       <View style={styles.container}>
          <ModalPoup visible={visible}>
-            <View style={{alignItems: 'center'}}>
-               <TouchableOpacity
-                  onPress={() => setVisible(false)}
-                  style={styles.modalHeader}>
+            <View style={{flexDirection: 'row'}}>
+               <View style={{flex: 1, alignItems: 'center'}}>
                   <Image
-                     source={require('../Images/close.png')}
-                     style={{height: 30, width: 30}}
+                     source={require('../Images/Eczane.jpeg')}
+                     style={{height: '60%', width: '90%'}}
                   />
-               </TouchableOpacity>
-               <Text>Ad: {eczaneAdi}</Text>
-               <Text>Adres: {eczaneAdresi}</Text>
-               <Text>Telefon: {eczaneNumarasi}</Text>
-
-               <TouchableOpacity>
-                  <Text>Mesaj Gönder</Text>
-               </TouchableOpacity>
+                  <View style={{marginTop: 15, alignItems: 'flex-start'}}>
+                     <Text style={styles.infoEczane}>
+                        Eczane Adı: {eczaneAdi}
+                     </Text>
+                     <Text style={styles.infoEczane}>
+                        Adres: {eczaneAdresi}
+                     </Text>
+                     <Text style={styles.infoEczane}>
+                        Telefon Numarası: {eczaneNumarasi}
+                     </Text>
+                  </View>
+                  <TouchableOpacity
+                     style={{
+                        marginTop: 10,
+                        backgroundColor: '#14f191',
+                        padding: 20,
+                        borderRadius: 15,
+                     }}
+                     onPress={() => {
+                        setVisible(false);
+                        navigation.navigate('Chat');
+                     }}>
+                     <Text style={{fontSize: 20}}>Mesaj Gönder</Text>
+                  </TouchableOpacity>
+               </View>
+               <View style={{}}>
+                  <TouchableOpacity
+                     onPress={() => setVisible(false)}
+                     style={{height: 30}}>
+                     <Image
+                        source={require('../Images/close.png')}
+                        style={{height: 30, width: 30}}
+                     />
+                  </TouchableOpacity>
+               </View>
             </View>
          </ModalPoup>
          {origin && (
@@ -252,8 +277,8 @@ export default function RegPharmacy() {
                            }}
                            onCalloutPress={() => onTitlePressed(val)}>
                            <MapView.Callout>
-                              <View>
-                                 <Text>{val.name + ' Eczanesi'}</Text>
+                              <View style={{alignItems: 'center'}}>
+                                 <Text>{val.name /* + ' Eczanesi'*/}</Text>
                                  <Text>{'Telefon: ' + val.phone}</Text>
                               </View>
                            </MapView.Callout>
@@ -333,9 +358,8 @@ const styles = StyleSheet.create({
       borderRadius: 20,
       elevation: 20,
    },
-   modalHeader: {
-      width: '100%',
-      height: 30,
-      alignItems: 'flex-end',
+   infoEczane: {
+      fontSize: 20,
+      paddingVertical: 5,
    },
 });

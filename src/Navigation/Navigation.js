@@ -19,7 +19,7 @@ const Stack = createStackNavigator();
 function Navigation() {
    return (
       <NavigationContainer>
-         <Stack.Navigator initialRouteName="ConstactsScreen">
+         <Stack.Navigator initialRouteName="SplashScreen">
             <Stack.Screen
                name="SplashScreen"
                component={SplashScreen}
