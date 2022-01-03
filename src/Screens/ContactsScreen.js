@@ -7,10 +7,7 @@ import Contact from '../Components/Contact';
 
 const ConstactsScreen = ({navigation}) => {
    useEffect(() => {
-      firebase
-         .firestore()
-         .collection('chats')
-         .onSnapshot(() => {});
+      firebase.fire
    }, []);
 
    return (
