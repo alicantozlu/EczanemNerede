@@ -35,5 +35,3 @@ export default function ChatScreen({navigation}) {
       />
    );
 }
-
-const styles = StyleSheet.create({});

@@ -4,7 +4,7 @@ import {TouchableOpacity} from 'react-native-gesture-handler';
 import Icon2 from 'react-native-vector-icons/Ionicons';
 import Contact from '../Components/Contact';
 
-const ConstactsScreen = () => {
+const ConstactsScreen = ({navigation}) => {
    return (
       <SafeAreaView style={styles.container}>
          <View style={styles.containerView}>
@@ -12,7 +12,7 @@ const ConstactsScreen = () => {
                name="Ali Can Tozlu"
                subtitle="Hi, I am waiting you over dinner!"
                onPress={() => {
-                  alert('Hi');
+                  navigation.navigate('Chat');
                }}
             />
             <View style={styles.seperator} />
