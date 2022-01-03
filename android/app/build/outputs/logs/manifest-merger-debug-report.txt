@@ -17,6 +17,7 @@ MERGED from [:lottie-react-native] /media/can/At/RN-Projects/Eczanem_Nerede/node
 MERGED from [:react-native-gesture-handler] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-safe-area-context] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-screens] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-vector-icons] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:@react-native-firebase_app] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-29:12
 MERGED from [com.facebook.react:react-native:0.64.0] /home/can/.gradle/caches/transforms-2/files-2.1/3d442c8b99729233d69f23d2b242eb80/jetified-react-native-0.64.0/AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/can/.gradle/caches/transforms-2/files-2.1/10bd4f28f7af697f4e9bb5bbf61d7281/jetified-firebase-auth-21.0.1/AndroidManifest.xml:17:1-83:12
@@ -276,6 +277,8 @@ MERGED from [:react-native-safe-area-context] /media/can/At/RN-Projects/Eczanem_
 MERGED from [:react-native-safe-area-context] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-screens] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-screens] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:@react-native-firebase_app] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:@react-native-firebase_app] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.64.0] /home/can/.gradle/caches/transforms-2/files-2.1/3d442c8b99729233d69f23d2b242eb80/jetified-react-native-0.64.0/AndroidManifest.xml:7:5-9:41

@@ -16,6 +16,8 @@ target 'Eczanem_Nerede' do
 
   pod 'RNFBAuth', :path => '../node_modules/@react-native-firebase/auth'
 
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
   target 'Eczanem_NeredeTests' do
     inherit! :complete
     # Pods for testing

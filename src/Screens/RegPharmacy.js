@@ -250,7 +250,7 @@ export default function RegPharmacy() {
                                  7,
                               ),
                            }}
-                           onCalloutPress={onTitlePressed}>
+                           onCalloutPress={() => onTitlePressed(val)}>
                            <MapView.Callout>
                               <View>
                                  <Text>{val.name + ' Eczanesi'}</Text>
