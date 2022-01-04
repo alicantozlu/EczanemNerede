@@ -188,22 +188,19 @@ export default function RegPharmacy({navigation, route}) {
                      }}
                      onPress={() => {
                         setVisible(false);
-                        onPress={() => {
-                           setVisible(false);
-                           firebase
-                              .firestore()
-                              .collection('chats')
-                              .add({
-                                 users: [
-                                    firebase.auth().currentUser.email,
-                                    eczaneMaili,
-                                 ],
-                                 messages: [''],
-                              })
-                              .then(doc => {
-                                 navigation.navigate('Chat', {id: doc.id});
-                              });
-                        }}>
+                        firebase
+                           .firestore()
+                           .collection('chats')
+                           .add({
+                              users: [
+                                 firebase.auth().currentUser.email,
+                                 eczaneMaili,
+                              ],
+                              messages: [''],
+                           })
+                           .then(doc => {
+                              navigation.navigate('Chat', {id: doc.id});
+                           });
                      }}>
                      <Text style={{fontSize: 20}}>Mesaj Gönder</Text>
                   </TouchableOpacity>

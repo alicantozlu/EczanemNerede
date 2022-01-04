@@ -13,6 +13,7 @@ const ConstactsScreen = ({navigation}) => {
       firebase
          .firestore()
          .collection('chats')
+         .where('users', 'array-contains', firebase.auth().currentUser.email)
          .onSnapshot(snapshot => {
             setChats(snapshot.docs);
          });
