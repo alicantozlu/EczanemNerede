@@ -1,5 +1,5 @@
 import {firebase} from '@react-native-firebase/auth';
-import React, {Component, useEffect} from 'react';
+import React, {Component, useEffect, useState} from 'react';
 import {View, StyleSheet, SafeAreaView} from 'react-native';
 import {ScrollView, TouchableOpacity} from 'react-native-gesture-handler';
 import Icon2 from 'react-native-vector-icons/Ionicons';
@@ -7,12 +7,14 @@ import Contact from '../Components/Contact';
 import firestore from '@react-native-firebase/firestore';
 
 const ConstactsScreen = ({navigation}) => {
+   const [chats, setChats] = useState([]);
+
    useEffect(() => {
       firebase
          .firestore()
          .collection('chats')
          .onSnapshot(snapshot => {
-            console.warn(snapshot.docs[0].data());
+            setChats(snapshot.docs);
          });
    }, []);
 
@@ -20,15 +22,17 @@ const ConstactsScreen = ({navigation}) => {
       <SafeAreaView style={styles.container}>
          <ScrollView style={{width: '95%'}}>
             <View style={styles.containerView}>
-               {chats.map((chat, index) => (
-                  <React.Fragment key={index}>
+               {chats.map(chat => (
+                  <React.Fragment key={chat.id}>
                      <Contact
-                        name={chat.users.find(
-                           x => x !== firebase.auth().currentUser.email,
-                        )}
+                        name={chat
+                           .data()
+                           .users.find(
+                              x => x !== firebase.auth().currentUser.email,
+                           )}
                         subtitle="No messages yet!"
                         onPress={() => {
-                           navigation.navigate('Chat');
+                           navigation.navigate('Chat', {id: chat.id});
                         }}
                      />
                      <View style={styles.seperator} />
@@ -39,21 +43,6 @@ const ConstactsScreen = ({navigation}) => {
       </SafeAreaView>
    );
 };
-
-const chats = [
-   {
-      users: ['r@a.com', 'b@b.com'],
-      messages: [],
-   },
-   {
-      users: ['a@a.com', 'b@b.com'],
-      messages: [],
-   },
-   {
-      users: ['a@a.com', 'b@b.com'],
-      messages: [],
-   },
-];
 
 const styles = StyleSheet.create({
    container: {

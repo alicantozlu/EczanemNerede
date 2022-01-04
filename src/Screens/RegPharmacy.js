@@ -13,8 +13,10 @@ import Geolocation from '@react-native-community/geolocation';
 import Geocoder from 'react-native-geocoding';
 import axios from 'axios';
 import {withSafeAreaInsets} from 'react-native-safe-area-context';
+import {firebase} from '@react-native-firebase/auth';
+import firestore from '@react-native-firebase/firestore';
 
-export default function RegPharmacy({navigation}) {
+export default function RegPharmacy({navigation, route}) {
    const [origin, setOrigin] = useState();
    const [destination, setDestination] = useState();
    const map = useRef();
@@ -30,6 +32,7 @@ export default function RegPharmacy({navigation}) {
    const [eczaneAdi, setEczaneAdi] = useState();
    const [eczaneAdresi, setEczaneAdresi] = useState();
    const [eczaneNumarasi, setEczaneNumarasi] = useState();
+   const [eczaneMaili, setEczaneMaili] = useState();
 
    function reverseString(str) {
       var splitString = str.split('');
@@ -76,9 +79,8 @@ export default function RegPharmacy({navigation}) {
                const header = {
                   headers: {
                      authorization:
-                        'apikey 1kVhFZzsNed1xmAhCJGOmy:1SG53QWzqCtUFFN0dq074I',
+                        'apikey 65SA4uSv7KQUV4AWxn2RAa:4QuqXIbfC3jJcfHziaXpnA',
                      /*
-                        apikey 65SA4uSv7KQUV4AWxn2RAa:4QuqXIbfC3jJcfHziaXpnA
                         apikey 0t2IGaI63WSFkjOZTMT8mY:6X1MZxQTC3wpwMpVZwL4O6
                         apikey 1Aycjx6qduhKlW6ssF7SGs:3i2EpJZSBa6iUCeFRC69Py
                         apikey 0FncQs8BGeltzg2hBnnVFE:0EK1WlgIUbdrogckYylLo7
@@ -151,6 +153,7 @@ export default function RegPharmacy({navigation}) {
       setEczaneAdi(val.name);
       setEczaneAdresi(val.address);
       setEczaneNumarasi(val.phone);
+      setEczaneMaili(val.mail);
    };
 
    return (
@@ -172,6 +175,9 @@ export default function RegPharmacy({navigation}) {
                      <Text style={styles.infoEczane}>
                         Telefon Numarası: {eczaneNumarasi}
                      </Text>
+                     <Text style={styles.infoEczane}>
+                        Telefon Numarası: {eczaneMaili}
+                     </Text>
                   </View>
                   <TouchableOpacity
                      style={{
@@ -182,7 +188,7 @@ export default function RegPharmacy({navigation}) {
                      }}
                      onPress={() => {
                         setVisible(false);
-                        navigation.navigate('Chat');
+                        //navigation.navigate('Chat');
                      }}>
                      <Text style={{fontSize: 20}}>Mesaj Gönder</Text>
                   </TouchableOpacity>
