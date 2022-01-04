@@ -60,9 +60,6 @@ MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/can/.gr
 MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/f566edf572cf5428631dc79558b5f553/jetified-play-services-auth-api-phone-18.0.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-auth-base:18.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/1fcd5ae45152f220856fae4063d12efe/jetified-play-services-auth-base-18.0.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/0bd243492535ff8ae22da59526257ca2/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
-<<<<<<< HEAD
-MERGED from [com.google.android.gms:play-services-base:18.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/380f6f2b21c69a62d5821acedbbed160/jetified-play-services-base-18.0.0/AndroidManifest.xml:16:1-24:12
-=======
 MERGED from [com.google.firebase:firebase-database-collection:18.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/6888e439e372270a6499f599b99defee/jetified-firebase-database-collection-18.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-base:17.5.0] /home/can/.gradle/caches/transforms-2/files-2.1/8ba120df78ef70b0b73857e5c07fa3e3/jetified-play-services-base-17.5.0/AndroidManifest.xml:17:1-29:12
 >>>>>>> -
@@ -383,10 +380,6 @@ MERGED from [com.google.android.gms:play-services-auth-base:18.0.0] /home/can/.g
 MERGED from [com.google.android.gms:play-services-auth-base:18.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/1fcd5ae45152f220856fae4063d12efe/jetified-play-services-auth-base-18.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/0bd243492535ff8ae22da59526257ca2/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/0bd243492535ff8ae22da59526257ca2/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
-<<<<<<< HEAD
-MERGED from [com.google.android.gms:play-services-base:18.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/380f6f2b21c69a62d5821acedbbed160/jetified-play-services-base-18.0.0/AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-base:18.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/380f6f2b21c69a62d5821acedbbed160/jetified-play-services-base-18.0.0/AndroidManifest.xml:18:5-43
-=======
 MERGED from [com.google.firebase:firebase-database-collection:18.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/6888e439e372270a6499f599b99defee/jetified-firebase-database-collection-18.0.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-database-collection:18.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/6888e439e372270a6499f599b99defee/jetified-firebase-database-collection-18.0.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-base:17.5.0] /home/can/.gradle/caches/transforms-2/files-2.1/8ba120df78ef70b0b73857e5c07fa3e3/jetified-play-services-base-17.5.0/AndroidManifest.xml:20:5-44

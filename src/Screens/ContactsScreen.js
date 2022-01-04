@@ -12,7 +12,7 @@ const ConstactsScreen = ({navigation}) => {
          .firestore()
          .collection('chats')
          .onSnapshot(snapshot => {
-            console.warn(snapshot.docs);
+            console.warn(snapshot.docs[0].data());
          });
    }, []);
 
