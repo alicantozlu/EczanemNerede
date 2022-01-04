@@ -1,32 +1,32 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:1:1-36:12
-INJECTED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:1:1-36:12
-INJECTED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:1:1-36:12
-INJECTED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:1:1-36:12
-MERGED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:1:1-36:12
+ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml:1:1-36:12
+INJECTED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml:1:1-36:12
+INJECTED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml:1:1-36:12
+INJECTED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml:1:1-36:12
+MERGED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml:1:1-36:12
 MERGED from [com.facebook.flipper:flipper:0.75.1] /home/can/.gradle/caches/transforms-2/files-2.1/ce1147b3e4e04fe87f556bced63a10fa/jetified-flipper-0.75.1/AndroidManifest.xml:8:1-18:12
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.75.1] /home/can/.gradle/caches/transforms-2/files-2.1/7ce3eef7cc3fa00f9f6b76aceacbc7bf/jetified-flipper-network-plugin-0.75.1/AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.75.1] /home/can/.gradle/caches/transforms-2/files-2.1/7b7651dc6816d8a0525410fe4a9b548a/jetified-flipper-fresco-plugin-0.75.1/AndroidManifest.xml:8:1-15:12
-MERGED from [:react-native-maps] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-12:12
-MERGED from [:react-native-community_geolocation] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-community/geolocation/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-community_masked-view] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-firebase_app] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-29:12
-MERGED from [:react-native-firebase_auth] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
-MERGED from [:react-native-firebase_firestore] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/firestore/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:lottie-react-native] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-gesture-handler] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-safe-area-context] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-screens] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-vector-icons] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:@react-native-firebase_app] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-29:12
+MERGED from [:react-native-maps] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-12:12
+MERGED from [:react-native-community_geolocation] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-community/geolocation/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_masked-view] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-firebase_app] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-29:12
+MERGED from [:react-native-firebase_auth] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:react-native-firebase_firestore] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-firebase/firestore/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:lottie-react-native] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-gesture-handler] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-safe-area-context] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screens] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-vector-icons] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:@react-native-firebase_app] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-29:12
 MERGED from [com.facebook.react:react-native:0.64.0] /home/can/.gradle/caches/transforms-2/files-2.1/3d442c8b99729233d69f23d2b242eb80/jetified-react-native-0.64.0/AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/can/.gradle/caches/transforms-2/files-2.1/10bd4f28f7af697f4e9bb5bbf61d7281/jetified-firebase-auth-21.0.1/AndroidManifest.xml:17:1-83:12
 MERGED from [androidx.browser:browser:1.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/f4d3f62a53e6e60a8a826da95f29ae37/browser-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/b53cee0a414c669aac64820562a8ebb5/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/43e60f9ff187f5de382de8b2419c0c31/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [org.webkit:android-jsc:r245459] /home/can/.gradle/caches/transforms-2/files-2.1/a5ff9fe82e90bb1a6e8936b6ed02d165/jetified-android-jsc-r245459/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-reanimated] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/react-native-reanimated/android/build/.transforms/1991dc0947a1020056f386fb0c2b0ea5/jetified-react-native-reanimated-64-jsc/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-reanimated] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/react-native-reanimated/android/build/.transforms/076a7dc2b3f4e662b6bd2a512fb8a125/jetified-react-native-reanimated-64-jsc/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-firestore:24.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/f27fe8cfca89657d66d5b1bfc13441ee/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:2:1-26:12
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/9e44b39309c78cad1d74d01c0abfcb6e/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] /home/can/.gradle/caches/transforms-2/files-2.1/c57a056c41626be6707695757c1c5190/jetified-firebase-appcheck-interop-16.0.0-beta02/AndroidManifest.xml:15:1-26:12
@@ -61,8 +61,7 @@ MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.0] /home/c
 MERGED from [com.google.android.gms:play-services-auth-base:18.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/1fcd5ae45152f220856fae4063d12efe/jetified-play-services-auth-base-18.0.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/0bd243492535ff8ae22da59526257ca2/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-database-collection:18.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/6888e439e372270a6499f599b99defee/jetified-firebase-database-collection-18.0.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-base:17.5.0] /home/can/.gradle/caches/transforms-2/files-2.1/8ba120df78ef70b0b73857e5c07fa3e3/jetified-play-services-base-17.5.0/AndroidManifest.xml:17:1-29:12
->>>>>>> -
+MERGED from [com.google.android.gms:play-services-base:18.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/380f6f2b21c69a62d5821acedbbed160/jetified-play-services-base-18.0.0/AndroidManifest.xml:16:1-24:12
 MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/c5bf39837908c382ed8ca0cbab290d74/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-tasks:18.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/22d3d8c875aabc779385bb1e9fe1ae03/jetified-play-services-tasks-18.0.0/AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/0a6ac35ef17eb6546ba1fdb2976715b2/jetified-play-services-basement-18.0.0/AndroidManifest.xml:16:1-26:12
@@ -100,36 +99,36 @@ MERGED from [com.google.maps.android:android-maps-utils:0.5] /home/can/.gradle/c
 MERGED from [com.facebook.fresco:fbcore:2.2.0] /home/can/.gradle/caches/transforms-2/files-2.1/2cf8801f6c95f5c1a6813081d88347ab/jetified-fbcore-2.2.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:ui-common:2.2.0] /home/can/.gradle/caches/transforms-2/files-2.1/6945c5ffd2598af04fbec38cf9dac32f/jetified-ui-common-2.2.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/2fdb3e6866c38ec57719b3c1fa32e9ab/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
-INJECTED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/debug/AndroidManifest.xml:2:1-13:12
-INJECTED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/debug/AndroidManifest.xml:2:1-13:12
-INJECTED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/debug/AndroidManifest.xml:2:1-13:12
+INJECTED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/debug/AndroidManifest.xml:2:1-13:12
+INJECTED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/debug/AndroidManifest.xml:2:1-13:12
+INJECTED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/debug/AndroidManifest.xml:2:1-13:12
 	package
-		ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:2:3-31
-		INJECTED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml
-		ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:2:3-31
-		INJECTED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/debug/AndroidManifest.xml
+		ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml:2:3-31
+		INJECTED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml
+		ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml:2:3-31
+		INJECTED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/debug/AndroidManifest.xml
 	android:versionName
-		INJECTED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml
-		ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:1:1-36:12
-		INJECTED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml
+		ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml:1:1-36:12
+		INJECTED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/debug/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/debug/AndroidManifest.xml:3:5-51
+		ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/debug/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml
-		ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:1:1-36:12
-		INJECTED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml
+		ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml:1:1-36:12
+		INJECTED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
-		ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:4:5-66
+ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml:4:5-66
 MERGED from [com.facebook.flipper:flipper:0.75.1] /home/can/.gradle/caches/transforms-2/files-2.1/ce1147b3e4e04fe87f556bced63a10fa/jetified-flipper-0.75.1/AndroidManifest.xml:15:5-67
 MERGED from [com.facebook.flipper:flipper:0.75.1] /home/can/.gradle/caches/transforms-2/files-2.1/ce1147b3e4e04fe87f556bced63a10fa/jetified-flipper-0.75.1/AndroidManifest.xml:15:5-67
-MERGED from [:react-native-maps] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-67
-MERGED from [:react-native-maps] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-67
-MERGED from [:react-native-firebase_auth] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
-MERGED from [:react-native-firebase_auth] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
-MERGED from [:lottie-react-native] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-67
-MERGED from [:lottie-react-native] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-maps] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-maps] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-firebase_auth] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [:react-native-firebase_auth] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [:lottie-react-native] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:lottie-react-native] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-67
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/can/.gradle/caches/transforms-2/files-2.1/10bd4f28f7af697f4e9bb5bbf61d7281/jetified-firebase-auth-21.0.1/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/can/.gradle/caches/transforms-2/files-2.1/10bd4f28f7af697f4e9bb5bbf61d7281/jetified-firebase-auth-21.0.1/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-firestore:24.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/f27fe8cfca89657d66d5b1bfc13441ee/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:14:5-67
@@ -137,11 +136,11 @@ MERGED from [com.google.firebase:firebase-firestore:24.0.0] /home/can/.gradle/ca
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/6355bb52f1b64282d46485518152223a/jetified-play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/6355bb52f1b64282d46485518152223a/jetified-play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
 	android:name
-		ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:4:22-64
+		ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml:4:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:5:5-78
-MERGED from [:react-native-firebase_auth] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
-MERGED from [:react-native-firebase_auth] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
+ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml:5:5-78
+MERGED from [:react-native-firebase_auth] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
+MERGED from [:react-native-firebase_auth] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/can/.gradle/caches/transforms-2/files-2.1/10bd4f28f7af697f4e9bb5bbf61d7281/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/can/.gradle/caches/transforms-2/files-2.1/10bd4f28f7af697f4e9bb5bbf61d7281/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-firestore:24.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/f27fe8cfca89657d66d5b1bfc13441ee/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:13:5-79
@@ -151,19 +150,19 @@ MERGED from [io.grpc:grpc-android:1.41.0] /home/can/.gradle/caches/transforms-2/
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/6355bb52f1b64282d46485518152223a/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/6355bb52f1b64282d46485518152223a/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
 	android:name
-		ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:5:22-76
+		ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml:5:22-76
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:6:5-78
+ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml:6:5-78
 	android:name
-		ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:6:22-76
+		ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml:6:22-76
 application
-ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:8:5-35:19
-MERGED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:8:5-35:19
-MERGED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:8:5-35:19
-MERGED from [:react-native-firebase_app] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-27:19
-MERGED from [:react-native-firebase_app] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-27:19
-MERGED from [:@react-native-firebase_app] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-27:19
-MERGED from [:@react-native-firebase_app] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-27:19
+ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml:8:5-35:19
+MERGED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml:8:5-35:19
+MERGED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml:8:5-35:19
+MERGED from [:react-native-firebase_app] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-27:19
+MERGED from [:react-native-firebase_app] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-27:19
+MERGED from [:@react-native-firebase_app] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-27:19
+MERGED from [:@react-native-firebase_app] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-27:19
 MERGED from [com.facebook.react:react-native:0.64.0] /home/can/.gradle/caches/transforms-2/files-2.1/3d442c8b99729233d69f23d2b242eb80/jetified-react-native-0.64.0/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.react:react-native:0.64.0] /home/can/.gradle/caches/transforms-2/files-2.1/3d442c8b99729233d69f23d2b242eb80/jetified-react-native-0.64.0/AndroidManifest.xml:11:5-20
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/can/.gradle/caches/transforms-2/files-2.1/10bd4f28f7af697f4e9bb5bbf61d7281/jetified-firebase-auth-21.0.1/AndroidManifest.xml:26:5-81:19
@@ -207,99 +206,99 @@ MERGED from [com.google.maps.android:android-maps-utils:0.5] /home/can/.gradle/c
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.2.0] /home/can/.gradle/caches/transforms-2/files-2.1/a4a010e99880a4d81ee6a7ed3ad8449a/core-1.2.0/AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:10:7-39
-		ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:10:7-39
+		ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml:10:7-39
+		ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml:10:7-39
 	tools:ignore
-		ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/debug/AndroidManifest.xml:10:9-48
+		ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/debug/AndroidManifest.xml:10:9-48
 	android:roundIcon
-		ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:12:7-52
-		ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:12:7-52
+		ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml:12:7-52
+		ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml:12:7-52
 	tools:targetApi
-		ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/debug/AndroidManifest.xml:9:9-29
+		ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/debug/AndroidManifest.xml:9:9-29
 	android:icon
-		ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:11:7-41
-		ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:11:7-41
+		ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml:11:7-41
+		ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml:11:7-41
 	android:allowBackup
-		ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:13:7-34
-		ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:13:7-34
+		ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml:13:7-34
+		ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml:13:7-34
 	android:theme
-		ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:14:7-38
-		ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:14:7-38
+		ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml:14:7-38
+		ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml:14:7-38
 	android:usesCleartextTraffic
-		ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/debug/AndroidManifest.xml:8:9-44
+		ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/debug/AndroidManifest.xml:8:9-44
 	android:name
-		ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:9:7-38
-		ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:9:7-38
+		ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml:9:7-38
+		ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml:9:7-38
 meta-data#com.google.android.geo.API_KEY
-ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:17:7-19:64
+ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml:17:7-19:64
 	android:value
-		ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:19:7-62
+		ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml:19:7-62
 	android:name
-		ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:18:7-52
+		ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml:18:7-52
 uses-library#org.apache.http.legacy
-ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:22:7-85
+ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml:22:7-85
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/6355bb52f1b64282d46485518152223a/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/6355bb52f1b64282d46485518152223a/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
 	android:required
-		ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:22:59-83
+		ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml:22:59-83
 	android:name
-		ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:22:21-58
+		ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml:22:21-58
 activity#com.eczanem_nerede.MainActivity
-ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:24:7-34:18
+ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml:24:7-34:18
 	android:label
-		ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:26:9-41
+		ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml:26:9-41
 	android:launchMode
-		ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:28:9-40
+		ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml:28:9-40
 	android:windowSoftInputMode
-		ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:29:9-56
+		ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml:29:9-56
 	android:configChanges
-		ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:27:9-86
+		ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml:27:9-86
 	android:name
-		ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:25:9-37
+		ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml:25:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:30:9-33:25
+ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml:30:9-33:25
 action#android.intent.action.MAIN
-ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:31:13-65
+ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml:31:13-65
 	android:name
-		ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:31:21-62
+		ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml:31:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:32:13-73
+ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml:32:13-73
 	android:name
-		ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml:32:23-70
+		ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml:32:23-70
 uses-sdk
-INJECTED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml
-INJECTED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml
+INJECTED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml
+INJECTED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml
 MERGED from [com.facebook.flipper:flipper:0.75.1] /home/can/.gradle/caches/transforms-2/files-2.1/ce1147b3e4e04fe87f556bced63a10fa/jetified-flipper-0.75.1/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper:0.75.1] /home/can/.gradle/caches/transforms-2/files-2.1/ce1147b3e4e04fe87f556bced63a10fa/jetified-flipper-0.75.1/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.75.1] /home/can/.gradle/caches/transforms-2/files-2.1/7ce3eef7cc3fa00f9f6b76aceacbc7bf/jetified-flipper-network-plugin-0.75.1/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.75.1] /home/can/.gradle/caches/transforms-2/files-2.1/7ce3eef7cc3fa00f9f6b76aceacbc7bf/jetified-flipper-network-plugin-0.75.1/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.75.1] /home/can/.gradle/caches/transforms-2/files-2.1/7b7651dc6816d8a0525410fe4a9b548a/jetified-flipper-fresco-plugin-0.75.1/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.75.1] /home/can/.gradle/caches/transforms-2/files-2.1/7b7651dc6816d8a0525410fe4a9b548a/jetified-flipper-fresco-plugin-0.75.1/AndroidManifest.xml:11:5-13:41
-MERGED from [:react-native-maps] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-maps] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_geolocation] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-community/geolocation/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_geolocation] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-community/geolocation/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_masked-view] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_masked-view] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-firebase_app] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-firebase_app] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-firebase_auth] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-firebase_auth] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-firebase_firestore] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/firestore/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-firebase_firestore] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/firestore/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:lottie-react-native] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:lottie-react-native] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-gesture-handler] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-gesture-handler] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-safe-area-context] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-safe-area-context] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-screens] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-screens] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-vector-icons] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-vector-icons] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:@react-native-firebase_app] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:@react-native-firebase_app] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-maps] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-maps] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_geolocation] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-community/geolocation/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_geolocation] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-community/geolocation/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_app] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase_app] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase_auth] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase_auth] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase_firestore] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-firebase/firestore/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase_firestore] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-firebase/firestore/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:lottie-react-native] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:lottie-react-native] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-safe-area-context] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:@react-native-firebase_app] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:@react-native-firebase_app] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.64.0] /home/can/.gradle/caches/transforms-2/files-2.1/3d442c8b99729233d69f23d2b242eb80/jetified-react-native-0.64.0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.64.0] /home/can/.gradle/caches/transforms-2/files-2.1/3d442c8b99729233d69f23d2b242eb80/jetified-react-native-0.64.0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/can/.gradle/caches/transforms-2/files-2.1/10bd4f28f7af697f4e9bb5bbf61d7281/jetified-firebase-auth-21.0.1/AndroidManifest.xml:21:5-44
@@ -312,8 +311,8 @@ MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/can/.gr
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/43e60f9ff187f5de382de8b2419c0c31/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [org.webkit:android-jsc:r245459] /home/can/.gradle/caches/transforms-2/files-2.1/a5ff9fe82e90bb1a6e8936b6ed02d165/jetified-android-jsc-r245459/AndroidManifest.xml:7:5-9:41
 MERGED from [org.webkit:android-jsc:r245459] /home/can/.gradle/caches/transforms-2/files-2.1/a5ff9fe82e90bb1a6e8936b6ed02d165/jetified-android-jsc-r245459/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-reanimated] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/react-native-reanimated/android/build/.transforms/1991dc0947a1020056f386fb0c2b0ea5/jetified-react-native-reanimated-64-jsc/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-reanimated] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/react-native-reanimated/android/build/.transforms/1991dc0947a1020056f386fb0c2b0ea5/jetified-react-native-reanimated-64-jsc/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/react-native-reanimated/android/build/.transforms/076a7dc2b3f4e662b6bd2a512fb8a125/jetified-react-native-reanimated-64-jsc/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/react-native-reanimated/android/build/.transforms/076a7dc2b3f4e662b6bd2a512fb8a125/jetified-react-native-reanimated-64-jsc/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:firebase-firestore:24.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/f27fe8cfca89657d66d5b1bfc13441ee/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:firebase-firestore:24.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/f27fe8cfca89657d66d5b1bfc13441ee/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/9e44b39309c78cad1d74d01c0abfcb6e/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
@@ -382,9 +381,8 @@ MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/can/.g
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/0bd243492535ff8ae22da59526257ca2/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-database-collection:18.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/6888e439e372270a6499f599b99defee/jetified-firebase-database-collection-18.0.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-database-collection:18.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/6888e439e372270a6499f599b99defee/jetified-firebase-database-collection-18.0.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.gms:play-services-base:17.5.0] /home/can/.gradle/caches/transforms-2/files-2.1/8ba120df78ef70b0b73857e5c07fa3e3/jetified-play-services-base-17.5.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:17.5.0] /home/can/.gradle/caches/transforms-2/files-2.1/8ba120df78ef70b0b73857e5c07fa3e3/jetified-play-services-base-17.5.0/AndroidManifest.xml:20:5-44
->>>>>>> -
+MERGED from [com.google.android.gms:play-services-base:18.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/380f6f2b21c69a62d5821acedbbed160/jetified-play-services-base-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/380f6f2b21c69a62d5821acedbbed160/jetified-play-services-base-18.0.0/AndroidManifest.xml:18:5-43
 MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/c5bf39837908c382ed8ca0cbab290d74/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/c5bf39837908c382ed8ca0cbab290d74/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-tasks:18.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/22d3d8c875aabc779385bb1e9fe1ae03/jetified-play-services-tasks-18.0.0/AndroidManifest.xml:4:5-43
@@ -459,42 +457,42 @@ MERGED from [com.facebook.fresco:ui-common:2.2.0] /home/can/.gradle/caches/trans
 MERGED from [com.facebook.fresco:ui-common:2.2.0] /home/can/.gradle/caches/transforms-2/files-2.1/6945c5ffd2598af04fbec38cf9dac32f/jetified-ui-common-2.2.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/2fdb3e6866c38ec57719b3c1fa32e9ab/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/2fdb3e6866c38ec57719b3c1fa32e9ab/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
-INJECTED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/debug/AndroidManifest.xml
-INJECTED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/debug/AndroidManifest.xml
+INJECTED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/debug/AndroidManifest.xml
+INJECTED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml
-		INJECTED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml
+		INJECTED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/debug/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/AndroidManifest.xml
-		INJECTED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/AndroidManifest.xml
+		INJECTED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/debug/AndroidManifest.xml
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/debug/AndroidManifest.xml:5:5-77
+ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/debug/AndroidManifest.xml:5:5-77
 	android:name
-		ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/debug/AndroidManifest.xml:5:22-75
+		ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/debug/AndroidManifest.xml:5:22-75
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/debug/AndroidManifest.xml:11:9-86
+ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/debug/AndroidManifest.xml:11:9-86
 	android:name
-		ADDED from /media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/debug/AndroidManifest.xml:11:19-83
+		ADDED from /media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/debug/AndroidManifest.xml:11:19-83
 uses-permission#android.permission.ACCESS_WIFI_STATE
 ADDED from [com.facebook.flipper:flipper:0.75.1] /home/can/.gradle/caches/transforms-2/files-2.1/ce1147b3e4e04fe87f556bced63a10fa/jetified-flipper-0.75.1/AndroidManifest.xml:16:5-76
 	android:name
 		ADDED from [com.facebook.flipper:flipper:0.75.1] /home/can/.gradle/caches/transforms-2/files-2.1/ce1147b3e4e04fe87f556bced63a10fa/jetified-flipper-0.75.1/AndroidManifest.xml:16:22-73
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from [:react-native-maps] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-81
+ADDED from [:react-native-maps] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-81
 	android:name
-		ADDED from [:react-native-maps] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:22-78
+		ADDED from [:react-native-maps] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:22-78
 meta-data#app_data_collection_default_enabled
-ADDED from [:react-native-firebase_app] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-14:36
-MERGED from [:@react-native-firebase_app] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-14:36
-MERGED from [:@react-native-firebase_app] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-14:36
+ADDED from [:react-native-firebase_app] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-14:36
+MERGED from [:@react-native-firebase_app] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-14:36
+MERGED from [:@react-native-firebase_app] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-14:36
 	android:value
-		ADDED from [:react-native-firebase_app] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-33
+		ADDED from [:react-native-firebase_app] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-33
 	android:name
-		ADDED from [:react-native-firebase_app] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-63
+		ADDED from [:react-native-firebase_app] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-63
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [:react-native-firebase_app] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-20:19
-MERGED from [:@react-native-firebase_app] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-20:19
-MERGED from [:@react-native-firebase_app] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-20:19
+ADDED from [:react-native-firebase_app] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-20:19
+MERGED from [:@react-native-firebase_app] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-20:19
+MERGED from [:@react-native-firebase_app] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-20:19
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/can/.gradle/caches/transforms-2/files-2.1/10bd4f28f7af697f4e9bb5bbf61d7281/jetified-firebase-auth-21.0.1/AndroidManifest.xml:74:9-80:19
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/can/.gradle/caches/transforms-2/files-2.1/10bd4f28f7af697f4e9bb5bbf61d7281/jetified-firebase-auth-21.0.1/AndroidManifest.xml:74:9-80:19
 MERGED from [com.google.firebase:firebase-firestore:24.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/f27fe8cfca89657d66d5b1bfc13441ee/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:17:9-23:19
@@ -508,31 +506,31 @@ MERGED from [com.google.firebase:firebase-common:20.0.0] /home/can/.gradle/cache
 	android:directBootAware
 		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/can/.gradle/caches/transforms-2/files-2.1/cf44503f512bd01edbb9a42565c54f02/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
 	android:name
-		ADDED from [:react-native-firebase_app] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:18-89
+		ADDED from [:react-native-firebase_app] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:18-89
 meta-data#com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar
-ADDED from [:react-native-firebase_app] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:85
-MERGED from [:@react-native-firebase_app] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:85
-MERGED from [:@react-native-firebase_app] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:85
+ADDED from [:react-native-firebase_app] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:85
+MERGED from [:@react-native-firebase_app] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:85
+MERGED from [:@react-native-firebase_app] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:85
 	android:value
-		ADDED from [:react-native-firebase_app] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-82
+		ADDED from [:react-native-firebase_app] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-82
 	android:name
-		ADDED from [:react-native-firebase_app] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-120
+		ADDED from [:react-native-firebase_app] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-120
 provider#io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider
-ADDED from [:react-native-firebase_app] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:9-26:38
-MERGED from [:@react-native-firebase_app] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:9-26:38
-MERGED from [:@react-native-firebase_app] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:9-26:38
+ADDED from [:react-native-firebase_app] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:9-26:38
+MERGED from [:@react-native-firebase_app] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:9-26:38
+MERGED from [:@react-native-firebase_app] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:9-26:38
 	android:authorities
-		ADDED from [:react-native-firebase_app] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-86
+		ADDED from [:react-native-firebase_app] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-86
 	android:exported
-		ADDED from [:react-native-firebase_app] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:13-37
+		ADDED from [:react-native-firebase_app] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:13-37
 	android:initOrder
-		ADDED from [:react-native-firebase_app] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-35
+		ADDED from [:react-native-firebase_app] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-35
 	android:name
-		ADDED from [:react-native-firebase_app] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-88
+		ADDED from [:react-native-firebase_app] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-88
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [:react-native-firebase_auth] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+ADDED from [:react-native-firebase_auth] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
 	android:name
-		ADDED from [:react-native-firebase_auth] /media/can/At/RN-Projects/Eczanem_Nerede/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-65
+		ADDED from [:react-native-firebase_auth] /media/can/At/0-Bitirme Projesi/EczanemNerede/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-65
 activity#com.google.firebase.auth.internal.GenericIdpActivity
 ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/can/.gradle/caches/transforms-2/files-2.1/10bd4f28f7af697f4e9bb5bbf61d7281/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
 	android:excludeFromRecents

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/media/can/At/RN-Projects/Eczanem_Nerede/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ca/values-ca.xml",
+            "outputFile": "/media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ca/values-ca.xml",
             "map": [
                 {
                     "source": "/home/can/.gradle/caches/transforms-2/files-2.1/380f6f2b21c69a62d5821acedbbed160/jetified-play-services-base-18.0.0/res/values-ca/values.xml",

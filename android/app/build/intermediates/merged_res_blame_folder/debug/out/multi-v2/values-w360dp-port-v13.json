@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/media/can/At/RN-Projects/Eczanem_Nerede/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w360dp-port-v13/values-w360dp-port-v13.xml",
+            "outputFile": "/media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w360dp-port-v13/values-w360dp-port-v13.xml",
             "map": [
                 {
                     "source": "/home/can/.gradle/caches/transforms-2/files-2.1/c4f164e6311e6235632873f3c928d514/material-1.1.0/res/values-w360dp-port-v13/values-w360dp-port-v13.xml",

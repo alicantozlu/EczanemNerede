@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/media/can/At/RN-Projects/Eczanem_Nerede/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/home/can/.gradle/caches/transforms-2/files-2.1/7621a416f8e1e36cfcdf867c10a52d56/fragment-1.2.1/res/values/values.xml",
@@ -40,7 +40,7 @@
                     }
                 },
                 {
-                    "source": "/media/can/At/RN-Projects/Eczanem_Nerede/android/app/build/generated/res/resValues/debug/values/gradleResValues.xml",
+                    "source": "/media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/build/generated/res/resValues/debug/values/gradleResValues.xml",
                     "from": {
                         "startLines": "6,8",
                         "startColumns": "4,4",
@@ -73,25 +73,6 @@
                         "endLines": "6250",
                         "endColumns": "20",
                         "endOffsets": "395499"
-                    }
-                },
-                {
-                    "source": "/media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/res/values/styles.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "54",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "234"
-                    },
-                    "to": {
-                        "startLines": "844",
-                        "startColumns": "4",
-                        "startOffsets": "62838",
-                        "endLines": "847",
-                        "endColumns": "12",
-                        "endOffsets": "63018"
                     }
                 },
                 {
@@ -166,23 +147,6 @@
                         "endLines": "586,4389,4392,4397",
                         "endColumns": "37,12,12,12",
                         "endOffsets": "38212,296909,297069,297321"
-                    }
-                },
-                {
-                    "source": "/media/can/At/RN-Projects/Eczanem_Nerede/android/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "51",
-                        "endOffsets": "63"
-                    },
-                    "to": {
-                        "startLines": "689",
-                        "startColumns": "4",
-                        "startOffsets": "44286",
-                        "endColumns": "51",
-                        "endOffsets": "44333"
                     }
                 },
                 {
@@ -315,6 +279,23 @@
                     }
                 },
                 {
+                    "source": "/media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "51",
+                        "endOffsets": "63"
+                    },
+                    "to": {
+                        "startLines": "689",
+                        "startColumns": "4",
+                        "startOffsets": "44286",
+                        "endColumns": "51",
+                        "endOffsets": "44333"
+                    }
+                },
+                {
                     "source": "/home/can/.gradle/caches/transforms-2/files-2.1/a0b6f37d0c1f8a3730ab994f67e14d6e/jetified-viewpager2-1.0.0/res/values/values.xml",
                     "from": {
                         "startLines": "2",
@@ -331,23 +312,6 @@
                         "endLines": "7475",
                         "endColumns": "24",
                         "endOffsets": "459715"
-                    }
-                },
-                {
-                    "source": "/media/can/At/RN-Projects/Eczanem_Nerede/android/app/build/generated/res/google-services/debug/values/values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,199,281,385,494,614,718",
-                        "endColumns": "143,81,103,108,119,103,80",
-                        "endOffsets": "194,276,380,489,609,713,794"
-                    },
-                    "to": {
-                        "startLines": "746,751,752,753,754,755,805",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "50915,51527,51609,51713,51822,51942,59948",
-                        "endColumns": "143,81,103,108,119,103,80",
-                        "endOffsets": "51054,51604,51708,51817,51937,52041,60024"
                     }
                 },
                 {
@@ -370,6 +334,23 @@
                     }
                 },
                 {
+                    "source": "/media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/build/generated/res/google-services/debug/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,199,281,385,494,614,718",
+                        "endColumns": "143,81,103,108,119,103,80",
+                        "endOffsets": "194,276,380,489,609,713,794"
+                    },
+                    "to": {
+                        "startLines": "746,751,752,753,754,755,805",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "50915,51527,51609,51713,51822,51942,59948",
+                        "endColumns": "143,81,103,108,119,103,80",
+                        "endOffsets": "51054,51604,51708,51817,51937,52041,60024"
+                    }
+                },
+                {
                     "source": "/home/can/.gradle/caches/transforms-2/files-2.1/a4a010e99880a4d81ee6a7ed3ad8449a/core-1.2.0/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,83,84,88,89,90,91,98,141,173,210",
@@ -386,6 +367,25 @@
                         "endLines": "191,192,298,299,300,301,302,303,304,517,518,519,520,521,522,523,524,525,526,527,528,529,530,531,541,542,543,545,546,547,548,549,550,551,552,553,554,555,556,557,558,559,560,561,562,563,564,565,566,567,568,569,570,571,572,573,574,575,576,594,595,609,610,611,612,613,614,615,616,617,618,622,656,818,3140,3144,3145,3149,3150,3713,3714,5614,5874,5906,6096,6103",
                         "endColumns": "68,62,69,67,71,69,60,73,72,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,71,75,64,58,58,59,59,59,59,59,59,59,59,59,59,58,59,59,59,59,59,59,59,59,59,59,58,59,59,58,58,58,58,58,58,34,34,54,62,54,57,56,49,60,56,33,34,34,69,70,116,12,109,12,128,71,66,24,24,24,24,24",
                         "endOffsets": "12281,12344,19557,19625,19697,19767,19828,19902,19975,34117,34178,34240,34304,34366,34427,34495,34595,34655,34721,34794,34863,34920,34972,35034,35624,35700,35765,35875,35934,35994,36054,36114,36174,36234,36294,36354,36414,36474,36534,36593,36653,36713,36773,36833,36893,36953,37013,37073,37133,37193,37252,37312,37372,37431,37490,37549,37608,37667,37726,38617,38652,39348,39411,39466,39524,39581,39631,39692,39749,39783,39818,39996,42022,61027,215106,215307,215417,215618,215747,255362,255429,364003,378955,381020,389344,389721"
+                    }
+                },
+                {
+                    "source": "/media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "54",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "234"
+                    },
+                    "to": {
+                        "startLines": "844",
+                        "startColumns": "4",
+                        "startOffsets": "62838",
+                        "endLines": "847",
+                        "endColumns": "12",
+                        "endOffsets": "63018"
                     }
                 },
                 {

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/media/can/At/RN-Projects/Eczanem_Nerede/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rAU/values-en-rAU.xml",
+            "outputFile": "/media/can/At/0-Bitirme Projesi/EczanemNerede/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rAU/values-en-rAU.xml",
             "map": [
                 {
                     "source": "/home/can/.gradle/caches/transforms-2/files-2.1/ae1b2855b0c2c0b48dde672012ba9332/appcompat-1.1.0/res/values-en-rAU/values-en-rAU.xml",
