@@ -4,10 +4,16 @@ import {View, StyleSheet, SafeAreaView} from 'react-native';
 import {ScrollView, TouchableOpacity} from 'react-native-gesture-handler';
 import Icon2 from 'react-native-vector-icons/Ionicons';
 import Contact from '../Components/Contact';
+import firestore from '@react-native-firebase/firestore';
 
 const ConstactsScreen = ({navigation}) => {
    useEffect(() => {
-      firebase.fire
+      firebase
+         .firestore()
+         .collection('chats')
+         .onSnapshot(snapshot => {
+            console.warn(snapshot.docs);
+         });
    }, []);
 
    return (
