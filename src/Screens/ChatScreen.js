@@ -1,5 +1,7 @@
 import React, {useState, useCallback, useEffect} from 'react';
 import {GiftedChat} from 'react-native-gifted-chat';
+import {firebase} from '@react-native-firebase/auth';
+import firestore from '@react-native-firebase/firestore';
 
 export default function ChatScreen({navigation}) {
    const [messages, setMessages] = useState([]);
