@@ -3,12 +3,12 @@ com/eczanem_nerede/ReactNativeFlipper.java
  com.eczanem_nerede.ReactNativeFlipper$1
  com.eczanem_nerede.ReactNativeFlipper$2
  com.eczanem_nerede.ReactNativeFlipper$2$1
-com/facebook/react/PackageList.java
- com.facebook.react.PackageList
+com/eczanem_nerede/MainApplication.java
+ com.eczanem_nerede.MainApplication
+ com.eczanem_nerede.MainApplication$1
 com/eczanem_nerede/MainActivity.java
  com.eczanem_nerede.MainActivity
 com/eczanem_nerede/BuildConfig.java
  com.eczanem_nerede.BuildConfig
-com/eczanem_nerede/MainApplication.java
- com.eczanem_nerede.MainApplication
- com.eczanem_nerede.MainApplication$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
