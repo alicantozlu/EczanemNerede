@@ -168,7 +168,7 @@ export default function RegPharmacy({navigation, route}) {
             users: [firebase.auth().currentUser.email, eczaneMaili],
          });
       setIsLoading(false);
-      navigation.navigate('Chat', {chatId: response.id});
+      navigation.navigate('Chat', {id: response.id});
    };
 
    return (
