@@ -14,8 +14,8 @@ const ConstactsScreen = ({navigation}) => {
          .firestore()
          .collection('chats')
          .where('users', 'array-contains', firebase.auth().currentUser.email)
-         .onSnapshot(snapshot => {
-            setChats(snapshot.docs);
+         .onSnapshot(querySnapshot => {
+            setChats(querySnapshot.docs);
          });
    }, [firebase.auth().currentUser.email]);
 
