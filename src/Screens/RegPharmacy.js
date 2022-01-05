@@ -33,6 +33,7 @@ export default function RegPharmacy({navigation, route}) {
    const [eczaneAdresi, setEczaneAdresi] = useState();
    const [eczaneNumarasi, setEczaneNumarasi] = useState();
    const [eczaneMaili, setEczaneMaili] = useState();
+   const [email, setEmail] = useState();
 
    function reverseString(str) {
       var splitString = str.split('');
@@ -126,6 +127,9 @@ export default function RegPharmacy({navigation, route}) {
       Geocoder.init('AIzaSyDqzdtI9OMH__I6VwNQfdslefn2W1DTNp8');
       setUpUserLocation();
       getRegisteredPharmacies();
+      firebase.auth().onAuthStateChanged(user => {
+         setEmail(user?.email ?? '');
+      });
    }, []);
 
    const onMarkerClicked = ({nativeEvent}) => {
@@ -154,6 +158,21 @@ export default function RegPharmacy({navigation, route}) {
       setEczaneAdresi(val.address);
       setEczaneNumarasi(val.phone);
       setEczaneMaili(val.mail);
+   };
+
+   const createChat = async () => {
+      if (!email || !eczaneMaili) return;
+      firebase
+         .firestore()
+         .collection('chats')
+         //.where('users', 'in', [firebase.auth().currentUser.email, eczaneMaili])
+         .add({
+            users: [email, eczaneMaili],
+            messages: [''],
+         })
+         .then(doc => {
+            navigation.navigate('Chat', {id: doc.id});
+         });
    };
 
    return (
@@ -188,19 +207,7 @@ export default function RegPharmacy({navigation, route}) {
                      }}
                      onPress={() => {
                         setVisible(false);
-                        firebase
-                           .firestore()
-                           .collection('chats')
-                           .add({
-                              users: [
-                                 firebase.auth().currentUser.email,
-                                 eczaneMaili,
-                              ],
-                              messages: [''],
-                           })
-                           .then(doc => {
-                              navigation.navigate('Chat', {id: doc.id});
-                           });
+                        createChat();
                      }}>
                      <Text style={{fontSize: 20}}>Mesaj Gönder</Text>
                   </TouchableOpacity>

@@ -10,14 +10,14 @@ const ConstactsScreen = ({navigation}) => {
    const [chats, setChats] = useState([]);
 
    useEffect(() => {
-      firebase
+      return firebase
          .firestore()
          .collection('chats')
          .where('users', 'array-contains', firebase.auth().currentUser.email)
          .onSnapshot(snapshot => {
             setChats(snapshot.docs);
          });
-   }, []);
+   }, [firebase.auth().currentUser.email]);
 
    return (
       <SafeAreaView style={styles.container}>
