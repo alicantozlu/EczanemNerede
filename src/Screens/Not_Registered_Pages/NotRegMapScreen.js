@@ -1,5 +1,12 @@
 import React, {useEffect, useState, useRef} from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import {
+   StyleSheet,
+   Text,
+   View,
+   Image,
+   TouchableOpacity,
+   Modal,
+} from 'react-native';
 import MapView, {PROVIDER_GOOGLE, Marker} from 'react-native-maps';
 import MapViewDirections from 'react-native-maps-directions';
 import Geolocation from '@react-native-community/geolocation';
@@ -17,6 +24,10 @@ export default function NotRegMapScreen() {
       distanceFilter: 1,
       maximumAge: 1000,
    };
+   const [visible, setVisible] = React.useState(false);
+   const [eczaneAdi, setEczaneAdi] = useState();
+   const [eczaneAdresi, setEczaneAdresi] = useState();
+   const [eczaneNumarasi, setEczaneNumarasi] = useState();
 
    function reverseString(str) {
       var splitString = str.split('');
@@ -63,11 +74,8 @@ export default function NotRegMapScreen() {
                const header = {
                   headers: {
                      authorization:
-                        'apikey 0ww4o5CiMwmCSt42G6gFQp:4HRgIWQZJZwFgNVP6PYu1N',
+                        'apikey 0t2IGaI63WSFkjOZTMT8mY:6X1MZxQTC3wpwMpVZwL4O6',
                      /*
-                        apikey 1kVhFZzsNed1xmAhCJGOmy:1SG53QWzqCtUFFN0dq074I
-                        apikey 65SA4uSv7KQUV4AWxn2RAa:4QuqXIbfC3jJcfHziaXpnA
-                        apikey 0t2IGaI63WSFkjOZTMT8mY:6X1MZxQTC3wpwMpVZwL4O6
                         apikey 1Aycjx6qduhKlW6ssF7SGs:3i2EpJZSBa6iUCeFRC69Py
                         apikey 0FncQs8BGeltzg2hBnnVFE:0EK1WlgIUbdrogckYylLo7
                         apikey 0ru69JLLDU3iVUSWxuEA2b:3FR8JAYVpPD9qslegCYHqb
@@ -87,7 +95,7 @@ export default function NotRegMapScreen() {
                      setDataSource(data);
                   });
             })
-            .catch(error => console.warn(error));
+            .catch(error => console.log(error));
       });
    };
 
@@ -96,7 +104,7 @@ export default function NotRegMapScreen() {
          //var addressComponent = json.results[0].address_components[0];
          //console.log(addressComponent);
       })
-      .catch(error => console.warn(error));
+      .catch(error => console.log(error));
 
    useEffect(() => {
       Geocoder.init('AIzaSyDqzdtI9OMH__I6VwNQfdslefn2W1DTNp8');
@@ -114,8 +122,56 @@ export default function NotRegMapScreen() {
       });
    };
 
+   const ModalPoup = ({visible, children}) => {
+      return (
+         <Modal transparent visible={visible}>
+            <View style={styles.modalBackground}>
+               <View style={styles.modalContainer}>{children}</View>
+            </View>
+         </Modal>
+      );
+   };
+
+   const onTitlePressed = val => {
+      setVisible(true);
+      setEczaneAdi(val.name);
+      setEczaneAdresi(val.address);
+      setEczaneNumarasi(val.phone);
+   };
+
    return (
       <View style={styles.container}>
+         <ModalPoup visible={visible}>
+            <View style={{flexDirection: 'row'}}>
+               <View style={{flex: 1, alignItems: 'center'}}>
+                  <Image
+                     source={require('../../Images/Eczane.jpeg')}
+                     style={{height: '50%', width: '90%'}}
+                  />
+                  <View style={{marginTop: 15, alignItems: 'flex-start'}}>
+                     <Text style={styles.infoEczane}>
+                        Eczane Adı: {eczaneAdi}
+                     </Text>
+                     <Text style={styles.infoEczane}>
+                        Adres: {eczaneAdresi}
+                     </Text>
+                     <Text style={styles.infoEczane}>
+                        Telefon Numarası: {eczaneNumarasi}
+                     </Text>
+                  </View>
+               </View>
+               <View style={{}}>
+                  <TouchableOpacity
+                     onPress={() => setVisible(false)}
+                     style={{height: 30}}>
+                     <Image
+                        source={require('../../Images/close.png')}
+                        style={{height: 20, width: 20}}
+                     />
+                  </TouchableOpacity>
+               </View>
+            </View>
+         </ModalPoup>
          {origin && (
             <MapView
                ref={r => (map.current = r)}
@@ -170,7 +226,14 @@ export default function NotRegMapScreen() {
                                  7,
                               ),
                            }}
-                        />
+                           onCalloutPress={() => onTitlePressed(val)}>
+                           <MapView.Callout>
+                              <View style={{alignItems: 'center'}}>
+                                 <Text>{'ECZANE ' + val.name}</Text>
+                                 <Text style={{color: 'gray'}}>{'...'}</Text>
+                              </View>
+                           </MapView.Callout>
+                        </Marker>
                      );
                   })}
             </MapView>
@@ -231,5 +294,23 @@ const styles = StyleSheet.create({
       backgroundColor: '#e9e8f7',
       zIndex: 2,
       borderRadius: 50,
+   },
+   modalBackground: {
+      flex: 1,
+      backgroundColor: 'rgba(0,0,0,0.5)',
+      justifyContent: 'center',
+      alignItems: 'center',
+   },
+   modalContainer: {
+      width: '80%',
+      backgroundColor: 'white',
+      paddingHorizontal: 20,
+      paddingVertical: 20,
+      borderRadius: 20,
+      elevation: 20,
+   },
+   infoEczane: {
+      fontSize: 15,
+      paddingVertical: 5,
    },
 });

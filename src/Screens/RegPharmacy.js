@@ -29,6 +29,8 @@ export default function RegPharmacy({navigation, route}) {
       maximumAge: 1000,
    };
    const [visible, setVisible] = React.useState(false);
+   const [visible2, setVisible2] = React.useState(false);
+
    const [eczaneAdi, setEczaneAdi] = useState();
    const [eczaneAdresi, setEczaneAdresi] = useState();
    const [eczaneNumarasi, setEczaneNumarasi] = useState();
@@ -79,9 +81,8 @@ export default function RegPharmacy({navigation, route}) {
                const header = {
                   headers: {
                      authorization:
-                        'apikey 65SA4uSv7KQUV4AWxn2RAa:4QuqXIbfC3jJcfHziaXpnA',
+                        'apikey 0t2IGaI63WSFkjOZTMT8mY:6X1MZxQTC3wpwMpVZwL4O6',
                      /*
-                        apikey 0t2IGaI63WSFkjOZTMT8mY:6X1MZxQTC3wpwMpVZwL4O6
                         apikey 1Aycjx6qduhKlW6ssF7SGs:3i2EpJZSBa6iUCeFRC69Py
                         apikey 0FncQs8BGeltzg2hBnnVFE:0EK1WlgIUbdrogckYylLo7
                         apikey 0ru69JLLDU3iVUSWxuEA2b:3FR8JAYVpPD9qslegCYHqb
@@ -111,7 +112,7 @@ export default function RegPharmacy({navigation, route}) {
                      setDataSource2(data2);
                   });
             })
-            .catch(error => console.warn(error));
+            .catch(error => console.log(error));
       });
    };
 
@@ -120,7 +121,7 @@ export default function RegPharmacy({navigation, route}) {
          //var addressComponent = json.results[0].address_components[0];
          //console.log(addressComponent);
       })
-      .catch(error => console.warn(error));
+      .catch(error => console.log(error));
 
    useEffect(() => {
       Geocoder.init('AIzaSyDqzdtI9OMH__I6VwNQfdslefn2W1DTNp8');
@@ -148,12 +149,29 @@ export default function RegPharmacy({navigation, route}) {
       );
    };
 
+   const ModalPoup2 = ({visible, children}) => {
+      return (
+         <Modal transparent visible={visible2}>
+            <View style={styles.modalBackground}>
+               <View style={styles.modalContainer}>{children}</View>
+            </View>
+         </Modal>
+      );
+   };
+
    const onTitlePressed = val => {
       setVisible(true);
       setEczaneAdi(val.name);
       setEczaneAdresi(val.address);
       setEczaneNumarasi(val.phone);
       setEczaneMaili(val.mail);
+   };
+
+   const onTitlePressed2 = val => {
+      setVisible2(true);
+      setEczaneAdi(val.name);
+      setEczaneAdresi(val.address);
+      setEczaneNumarasi(val.phone);
    };
 
    const [isLoading, setIsLoading] = useState(false);
@@ -178,7 +196,7 @@ export default function RegPharmacy({navigation, route}) {
                <View style={{flex: 1, alignItems: 'center'}}>
                   <Image
                      source={require('../Images/Eczane.jpeg')}
-                     style={{height: '60%', width: '90%'}}
+                     style={{height: '50%', width: '90%'}}
                   />
                   <View style={{marginTop: 15, alignItems: 'flex-start'}}>
                      <Text style={styles.infoEczane}>
@@ -221,6 +239,39 @@ export default function RegPharmacy({navigation, route}) {
                </View>
             </View>
          </ModalPoup>
+
+         <ModalPoup2 visible={visible2}>
+            <View style={{flexDirection: 'row'}}>
+               <View style={{flex: 1, alignItems: 'center'}}>
+                  <Image
+                     source={require('../Images/Eczane.jpeg')}
+                     style={{height: '50%', width: '90%'}}
+                  />
+                  <View style={{marginTop: 15, alignItems: 'flex-start'}}>
+                     <Text style={styles.infoEczane}>
+                        Eczane Adı: {eczaneAdi}
+                     </Text>
+                     <Text style={styles.infoEczane}>
+                        Adres: {eczaneAdresi}
+                     </Text>
+                     <Text style={styles.infoEczane}>
+                        Telefon Numarası: {eczaneNumarasi}
+                     </Text>
+                  </View>
+               </View>
+               <View style={{}}>
+                  <TouchableOpacity
+                     onPress={() => setVisible2(false)}
+                     style={{height: 30}}>
+                     <Image
+                        source={require('../Images/close.png')}
+                        style={{height: 30, width: 30}}
+                     />
+                  </TouchableOpacity>
+               </View>
+            </View>
+         </ModalPoup2>
+
          {origin && (
             <MapView
                ref={r => (map.current = r)}
@@ -263,8 +314,6 @@ export default function RegPharmacy({navigation, route}) {
                         <Marker
                            zIndex={1}
                            key={key}
-                           title={val.name /* + ' Eczanesi'*/}
-                           description={'Telefon: ' + val.phone}
                            pinColor={'red'}
                            coordinate={{
                               latitude: parseFloat(
@@ -276,7 +325,14 @@ export default function RegPharmacy({navigation, route}) {
                                  7,
                               ),
                            }}
-                        />
+                           onCalloutPress={() => onTitlePressed2(val)}>
+                           <MapView.Callout>
+                              <View style={{alignItems: 'center'}}>
+                                 <Text>{'ECZANE ' + val.name}</Text>
+                                 <Text>{'...'}</Text>
+                              </View>
+                           </MapView.Callout>
+                        </Marker>
                      );
                   })}
                {dataSource2 &&
@@ -300,8 +356,8 @@ export default function RegPharmacy({navigation, route}) {
                            onCalloutPress={() => onTitlePressed(val)}>
                            <MapView.Callout>
                               <View style={{alignItems: 'center'}}>
-                                 <Text>{val.name /* + ' Eczanesi'*/}</Text>
-                                 <Text>{'Telefon: ' + val.phone}</Text>
+                                 <Text>{val.name}</Text>
+                                 <Text>{'...'}</Text>
                               </View>
                            </MapView.Callout>
                         </Marker>
@@ -381,7 +437,7 @@ const styles = StyleSheet.create({
       elevation: 20,
    },
    infoEczane: {
-      fontSize: 20,
+      fontSize: 15,
       paddingVertical: 5,
    },
 });

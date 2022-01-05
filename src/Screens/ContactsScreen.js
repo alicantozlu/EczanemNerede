@@ -8,13 +8,28 @@ import firestore from '@react-native-firebase/firestore';
 
 const ConstactsScreen = ({navigation}) => {
    const [chats, setChats] = useState([]);
+/*
+   useEffect(() => {
+      const snapshot = await firebase
+         .firestore()
+         .collection('chats')
+         .where('users', 'array-contains', 'amasya@mail.com')
+         .get();
 
+      if (snapshot.empty) {
+         console.log('bos abi bu');
+      } else {
+         console.log('Var bisiler');
+      }
+   }, [firebase.auth().currentUser.email]);
+*/
    useEffect(() => {
       return firebase
          .firestore()
          .collection('chats')
          .where('users', 'array-contains', firebase.auth().currentUser.email)
          .onSnapshot(querySnapshot => {
+            //console.log(querySnapshot.docs);
             setChats(querySnapshot.docs);
          });
    }, [firebase.auth().currentUser.email]);
