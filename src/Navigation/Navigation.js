@@ -66,9 +66,9 @@ function Navigation() {
                options={{headerShown: false}}
             />
             <Stack.Screen
-               name="ContactsScreen"
+               name="Mesajlar"
                component={ConstactsScreen}
-               options={{headerShown: false}}
+               options={{headerShown: true}}
             />
             <Stack.Screen
                name="UserProfile"

@@ -69,7 +69,7 @@ export default function Nav({navigation}) {
          <Pressable
             style={styles.st}
             onPress={() => {
-               navigation.navigate('ContactsScreen');
+               navigation.navigate('Mesajlar');
             }}>
             <Text>ContactsScreen</Text>
          </Pressable>

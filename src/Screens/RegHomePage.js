@@ -23,7 +23,7 @@ const RegHomePage = ({navigation}) => {
          <TouchableOpacity
             style={styles.TO_Styles}
             onPress={() => {
-               navigation.navigate('ContactsScreen'); //
+               navigation.navigate('Mesajlar'); //
             }}>
             <Text style={styles.TO_textStyles}>Mesajlara Git</Text>
          </TouchableOpacity>

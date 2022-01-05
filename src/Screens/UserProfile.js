@@ -1,11 +1,21 @@
 //import liraries
-import React, {Component} from 'react';
+import React, {Component, useEffect, useState} from 'react';
 import auth, {firebase} from '@react-native-firebase/auth';
 import {View, Text, StyleSheet} from 'react-native';
 import Button_LogReg from '../Components/Button_LogReg';
 
 // create a component
 const UserProfile = ({navigation}) => {
+   //const [name, setName] = useState('');
+   const [email, setEmail] = useState('');
+
+   useEffect(() => {
+      firebase.auth().onAuthStateChanged(user => {
+         //setName(user?.displayName ?? '');
+         setEmail(user?.email ?? '');
+      });
+   }, []);
+
    const handleOnSubmit = () => {
       auth()
          .signOut()
@@ -17,7 +27,23 @@ const UserProfile = ({navigation}) => {
 
    return (
       <View style={styles.container}>
-         <Button_LogReg handleOnPress={handleOnSubmit} text="Çıkış" />
+         <View
+            style={{
+               flex: 1,
+               alignItems: 'center',
+               justifyContent: 'center',
+               marginTop: 20,
+            }}>
+            <View style={styles.avatar}>
+               <Text style={styles.avatarLabel}>
+                  {email
+                     .split(' ')
+                     .reduce((prev, current) => `${prev}${current[0]}`, '')}
+               </Text>
+            </View>
+            <Text style={{fontSize: 20, padding: 15}}>{email}</Text>
+            <Button_LogReg handleOnPress={handleOnSubmit} text="Çıkış" />
+         </View>
       </View>
    );
 };
@@ -28,7 +54,18 @@ const styles = StyleSheet.create({
       flex: 1,
       justifyContent: 'center',
       alignItems: 'center',
-      backgroundColor: '#2c3e50',
+   },
+   avatar: {
+      width: 96,
+      height: 96,
+      backgroundColor: '#2196f3',
+      borderRadius: 50,
+      alignItems: 'center',
+      justifyContent: 'center',
+   },
+   avatarLabel: {
+      fontSize: 20,
+      color: 'white',
    },
 });
 
