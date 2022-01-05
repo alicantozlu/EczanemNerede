@@ -8,7 +8,7 @@ import firestore from '@react-native-firebase/firestore';
 
 const ConstactsScreen = ({navigation}) => {
    const [chats, setChats] = useState([]);
-/*
+   /*
    useEffect(() => {
       const snapshot = await firebase
          .firestore()
@@ -46,7 +46,7 @@ const ConstactsScreen = ({navigation}) => {
                            .users.find(
                               x => x !== firebase.auth().currentUser.email,
                            )}
-                        subtitle="No messages yet!"
+                        subtitle={chat.data().messages[0].text}
                         onPress={() => {
                            navigation.navigate('Chat', {id: chat.id});
                         }}

@@ -196,7 +196,7 @@ export default function RegPharmacy({navigation, route}) {
                <View style={{flex: 1, alignItems: 'center'}}>
                   <Image
                      source={require('../Images/Eczane.jpeg')}
-                     style={{height: '50%', width: '90%'}}
+                     style={{height: '45%', width: '90%'}}
                   />
                   <View style={{marginTop: 15, alignItems: 'flex-start'}}>
                      <Text style={styles.infoEczane}>
@@ -209,7 +209,7 @@ export default function RegPharmacy({navigation, route}) {
                         Telefon Numarası: {eczaneNumarasi}
                      </Text>
                      <Text style={styles.infoEczane}>
-                        Telefon Numarası: {eczaneMaili}
+                        Mail Adresi: {eczaneMaili}
                      </Text>
                   </View>
                   <TouchableOpacity
@@ -233,7 +233,7 @@ export default function RegPharmacy({navigation, route}) {
                      style={{height: 30}}>
                      <Image
                         source={require('../Images/close.png')}
-                        style={{height: 30, width: 30}}
+                        style={{height: 20, width: 20}}
                      />
                   </TouchableOpacity>
                </View>
@@ -265,7 +265,7 @@ export default function RegPharmacy({navigation, route}) {
                      style={{height: 30}}>
                      <Image
                         source={require('../Images/close.png')}
-                        style={{height: 30, width: 30}}
+                        style={{height: 20, width: 20}}
                      />
                   </TouchableOpacity>
                </View>
