@@ -6,7 +6,7 @@ import {useRoute} from '@react-navigation/native';
 import {Text} from 'react-native';
 
 export default function ChatScreen({navigation}) {
-   const [messages, setMessages] = useState([]);
+   const [messages, setMessages] = useState();
    const route = useRoute();
    const [uid, setUID] = useState('');
    const [name, setName] = useState('');
@@ -21,7 +21,7 @@ export default function ChatScreen({navigation}) {
    }, []);
 
    useEffect(() => {
-      return firebase
+      firebase
          .firestore()
          .doc('chats/' + route.params.id)
          .onSnapshot(snapshot => {
