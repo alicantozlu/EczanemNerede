@@ -8,21 +8,25 @@ import firestore from '@react-native-firebase/firestore';
 
 const ConstactsScreen = ({navigation}) => {
    const [chats, setChats] = useState([]);
-   /*
+
    useEffect(() => {
-      const snapshot = await firebase
+      const snapshot = firebase
          .firestore()
          .collection('chats')
-         .where('users', 'array-contains', 'amasya@mail.com')
-         .get();
-
-      if (snapshot.empty) {
-         console.log('bos abi bu');
-      } else {
-         console.log('Var bisiler');
-      }
+         .where('users', 'array-contains-any', ['a@a.com', 'b@mail.com']) //eczanemaili
+         .get()
+         .then(querySnapshot => {
+            console.log('Total users: ', querySnapshot.size);
+            querySnapshot.forEach(documentSnapshot => {
+               console.log(
+                  'User ID: ',
+                  documentSnapshot.id,
+                  documentSnapshot.data(),
+               );
+            });
+         });
    }, [firebase.auth().currentUser.email]);
-*/
+
    useEffect(() => {
       return firebase
          .firestore()
@@ -46,7 +50,7 @@ const ConstactsScreen = ({navigation}) => {
                            .users.find(
                               x => x !== firebase.auth().currentUser.email,
                            )}
-                        subtitle={chat.data().messages[0].text}
+                        subtitle={chat.data().messages[0].text ?? '  '}
                         onPress={() => {
                            navigation.navigate('Chat', {id: chat.id});
                         }}

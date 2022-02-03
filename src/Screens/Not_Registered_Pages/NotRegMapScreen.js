@@ -17,7 +17,7 @@ export default function NotRegMapScreen() {
    const [origin, setOrigin] = useState();
    const [destination, setDestination] = useState();
    const map = useRef();
-   const GOOGLE_MAPS_APIKEY = 'AIzaSyDqzdtI9OMH__I6VwNQfdslefn2W1DTNp8';
+   const GOOGLE_MAPS_APIKEY = '';
    const [dataSource, setDataSource] = useState([]);
    const GEOLOCATION_SETTINGS = {
       enableHighAccuracy: true,
@@ -74,13 +74,7 @@ export default function NotRegMapScreen() {
                const header = {
                   headers: {
                      authorization:
-                        'apikey 0t2IGaI63WSFkjOZTMT8mY:6X1MZxQTC3wpwMpVZwL4O6',
-                     /*
-                        apikey 1Aycjx6qduhKlW6ssF7SGs:3i2EpJZSBa6iUCeFRC69Py
-                        apikey 0FncQs8BGeltzg2hBnnVFE:0EK1WlgIUbdrogckYylLo7
-                        apikey 0ru69JLLDU3iVUSWxuEA2b:3FR8JAYVpPD9qslegCYHqb
-                        apikey 6u1NmOPZlvzr63ao6iS86F:4YGPzEAnAHHYMUc0qmnn2Q
-                     */
+                        '',
                      'content-type': 'application/json',
                   },
                };
@@ -107,7 +101,7 @@ export default function NotRegMapScreen() {
       .catch(error => console.log(error));
 
    useEffect(() => {
-      Geocoder.init('AIzaSyDqzdtI9OMH__I6VwNQfdslefn2W1DTNp8');
+      Geocoder.init(''); //Google API
       setUpUserLocation();
       getRegisteredPharmacies();
    }, []);
