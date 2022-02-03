@@ -1,5 +1,4 @@
-# Eczanem Nerede
-<h1 align="center">Eczanem Nerede Android Application</h1>
+<h2 align="center">Eczanem Nerede Android Application</h2>
 
 - React-native project.
 - Developed for android devices.
